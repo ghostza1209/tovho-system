@@ -1,7 +1,7 @@
 <section id="price">
     <div class="container-fluid">
         <div class="col-md-6 col-lg-6  m-auto">
-            <div class="row text-title f-black" ><span class="text-underline m-auto">Price</span></div>
+            <div class="row text-title f-black"><span class="text-underline m-auto">Price</span></div>
             <div class="row mt-3 justify-content-center">
                 <p class="lead">
                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -19,24 +19,24 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <?php for ($i = 1; $i < 9; $i++) {?>
-                            <div class="swiper-slide">
-                                <img src="../../assets/image/price/createHomepage/creat-web-<?=$i?>.png">
-                                <div class="body">
-                                    <div class="w-100 mt-3 lead text-center text-bold">Title</div>
-                                    <div class="w-100 mt-3 text-left">
-                                        <p class="with_right_line">Price</p>
-                                        <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                    </div>
-                                    <div class="w-100 mt-3 text-left">
-                                        <p class="with_right_line">Price</p>
-                                        <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                    </div>
-                                    <div class="w-100 mt-3 text-left">
-                                        <p class="with_right_line">Price</p>
-                                        <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                    </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/image/price/createHomepage/creat-web-<?=$i?>.png">
+                            <div class="body">
+                                <div class="w-100 mt-3 lead text-center text-bold">Title</div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line">Price</p>
+                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
+                                </div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line">Price</p>
+                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
+                                </div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line">Price</p>
+                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                             </div>
+                        </div>
                         <?php }?>
                     </div>
                     <!-- Add Pagination -->
@@ -62,24 +62,24 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <?php for ($i = 1; $i < 13; $i++) {?>
-                            <div class="swiper-slide">
-                                <img src="../../assets/image/price/webSystem/web-system-<?=$i?>.png">
-                                <div class="body">
-                                    <div class="w-100 mt-3 lead text-center text-bold">Title</div>
-                                    <div class="w-100 mt-3 text-left">
-                                        <p class="with_right_line">Price</p>
-                                        <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                    </div>
-                                    <div class="w-100 mt-3 text-left">
-                                        <p class="with_right_line">Price</p>
-                                        <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                    </div>
-                                    <div class="w-100 mt-3 text-left">
-                                        <p class="with_right_line">Price</p>
-                                        <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                    </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/image/price/webSystem/web-system-<?=$i?>.png">
+                            <div class="body">
+                                <div class="w-100 mt-3 lead text-center text-bold">Title</div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line">Price</p>
+                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
+                                </div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line">Price</p>
+                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
+                                </div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line">Price</p>
+                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                             </div>
+                        </div>
                         <?php }?>
                     </div>
                     <!-- Add Pagination -->
@@ -105,24 +105,24 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <?php for ($i = 1; $i < 3; $i++) {?>
-                            <div class="swiper-slide">
-                                <img src="../../assets/image/price/app/app<?=$i?>.png">
-                                <div class="body">
-                                    <div class="w-100 mt-3 lead text-center text-bold">Title</div>
-                                    <div class="w-100 mt-3 text-left">
-                                        <p class="with_right_line">Price</p>
-                                        <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                    </div>
-                                    <div class="w-100 mt-3 text-left">
-                                        <p class="with_right_line">Price</p>
-                                        <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                    </div>
-                                    <div class="w-100 mt-3 text-left">
-                                        <p class="with_right_line">Price</p>
-                                        <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                    </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/image/price/app/app<?=$i?>.png">
+                            <div class="body">
+                                <div class="w-100 mt-3 lead text-center text-bold">Title</div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line">Price</p>
+                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
+                                </div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line">Price</p>
+                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
+                                </div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line">Price</p>
+                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                             </div>
+                        </div>
                         <?php }?>
                     </div>
                     <!-- Add Pagination -->

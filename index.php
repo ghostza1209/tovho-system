@@ -3,34 +3,35 @@ $page_directory = dirname($_SERVER["PHP_SELF"]);
 ?>
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="icon" href="">
 
-        <title>Carousel Template for Bootstrap</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
 
-        <!-- Bootstrap core CSS -->
-        <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
-        <!--jquery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Carousel Template for Bootstrap</title>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <!-- Custom styles for this template -->
-        <link href="./assets/myCss/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
 
-    <body>
+    <!-- Custom styles for this template -->
+    <link href="./assets/myCss/style.css" rel="stylesheet">
 
-        <header>
-            <?php include "./layout/navBar.php";?>
-        </header>
+<body>
 
-        <main role="main">
-            <?php
+    <header>
+        <?php include "./layout/navBar.php";?>
+    </header>
+
+    <main role="main">
+        <?php
 include "./layout/inc/header.php";
 include "./layout/inc/vision.php";
 include "./layout/inc/feature.php";
@@ -39,14 +40,15 @@ include "./layout/inc/staff.php";
 include "./layout/inc/company.php";
 include "./layout/inc/contactUs.php";
 ?>
-            <!-- FOOTER -->
-            <?php include "./layout/footer.php"?>
-        </main>
+        <!-- FOOTER -->
+        <?php include "./layout/footer.php"?>
+    </main>
 
-        <!-- Bootstrap core JavaScript
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="./assets/dist/js/bootstrap.min.js"></script>
-        <script src="./assets/dist/Scrollify-master/jquery.scrollify.js"/></script>
+    <!-- Bootstrap core JavaScript
+      Placed at the end of the document so the pages load faster -->
+    <script src="./assets/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/dist/Scrollify-master/jquery.scrollify.js" />
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
@@ -86,4 +88,5 @@ include "./layout/inc/contactUs.php";
         });
     </script>
 </body>
+
 </html>

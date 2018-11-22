@@ -2,7 +2,7 @@
     <div class="col-lg-6 col-sm-12 m-auto">
         <div class="row">
             <div class="col-lg-4 col-sm-4 col-5 m-auto">
-                <img class="logo"src="../../assets/image/dragonfly.png" />
+                <img class="logo" src="./assets/image/dragonfly.png" />
             </div>
             <div class="col-lg-8 col-sm-12">
                 <div class="title">Build a better future.</div>

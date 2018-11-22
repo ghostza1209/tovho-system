@@ -11,7 +11,7 @@ $page_directory = dirname($_SERVER["PHP_SELF"]);
     <meta name="author" content="">
     <link rel="icon" href="">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Tovho System</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">

@@ -14,7 +14,7 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="img-staff"><img src="<?= $page_directory ?>/assets/image/staff/boss.png"></div>
+                            <div class="img-staff"><img src="../../assets/image/staff/boss.png"></div>
                             <div class="body">
                                 <div class="w-100 text-left text-bold">Name</div>
                                 <div class="w-100 text-left">
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="img-staff"><img style="position: relative;top: -42px;" src="<?= $page_directory ?>/assets/image/staff/minami.png"></div>
+                            <div class="img-staff"><img style="position: relative;top: -42px;" src="../../assets/image/staff/minami.png"></div>
                             <div class="body">
                                 <div class="w-100 text-left text-bold">Name</div>
                                 <div class="w-100 text-left">
@@ -32,7 +32,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="img-staff"><img style="position: relative;top: -42px;" src="<?= $page_directory ?>/assets/image/staff/minami.png"></div>
+                            <div class="img-staff"><img style="position: relative;top: -42px;" src="../../assets/image/staff/minami.png"></div>
                             <div class="body">
                                 <div class="w-100 text-left text-bold">Name</div>
                                 <div class="w-100 text-left">
@@ -56,9 +56,9 @@
                 <!-- Swiper -->
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <?php for ($i = 1; $i < 6; $i++) { ?>
+                        <?php for ($i = 1; $i < 6; $i++) {?>
                             <div class="swiper-slide">
-                                <div class="img-staff"><img src="<?= $page_directory ?>/assets/image/staff/<?= $i ?>.jpg"></div>
+                                <div class="img-staff"><img src="../../assets/image/staff/<?=$i?>.jpg"></div>
                                 <div class="body">
                                     <div class="w-100 text-left text-bold">Name</div>
                                     <div class="w-100 text-left">
@@ -66,7 +66,7 @@
                                     </div>
                                 </div>
                             </div>
-                        <?php } ?>
+                        <?php }?>
                     </div>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>

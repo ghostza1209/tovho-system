@@ -16,7 +16,7 @@
                     Company name is a Tovho is derived from the ancient name of the dragonfly.
                     In dragonfly is called wins insects good luck and From where you do not retreat does not proceed only in front,
                     Never to retreat spirit In particular it had been pleasing to samurai.</p>
-                <footer class="text-right"><img width="100" src="<?= $page_directory ?>/assets/image/logo.png"/></footer>
+                <footer class="text-right"><img width="100" src="../../assets/image/logo.png"/></footer>
             </blockquote>
             <p class="text-justify ">
 

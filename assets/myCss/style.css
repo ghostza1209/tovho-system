@@ -16,8 +16,8 @@
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-    0% {background-size: 10%;}
-    50% {background-size: 30%;}
+    0% {background-size: 0%;}
+    50% {background-size: 10%;}
     100% {background-size: 0%;}
 }
 

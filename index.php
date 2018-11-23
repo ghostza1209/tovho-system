@@ -61,24 +61,24 @@ $page_directory = dirname($_SERVER["PHP_SELF"]);
     <script src="./assets/myJs/myJs.js"></script>
     <script>
         $(function () {
-            $.scrollify({
-                section: "section",
-                sectionName: "section-name",
-                interstitialSection: ".footer",
-                easing: "easeOutExpo",
-                scrollSpeed: 1000,
-                offset: 0,
-                scrollbars: true,
-                standardScrollElements: "",
-                setHeights: false,
-                overflowScroll: true,
-                updateHash: true,
-                touchScroll: true,
-                before: function () {},
-                after: function () {},
-                afterResize: function () {},
-                afterRender: function () {}
-            });
+//            $.scrollify({
+//                section: "section",
+//                sectionName: "section-name",
+//                interstitialSection: ".footer",
+//                easing: "easeOutExpo",
+//                scrollSpeed: 1000,
+//                offset: 0,
+//                scrollbars: true,
+//                standardScrollElements: "",
+//                setHeights: false,
+//                overflowScroll: true,
+//                updateHash: true,
+//                touchScroll: true,
+//                before: function () {},
+//                after: function () {},
+//                afterResize: function () {},
+//                afterRender: function () {}
+//            });
 
             var swiper = new Swiper('.swiper-container', {
                 slidesPerView: 3,

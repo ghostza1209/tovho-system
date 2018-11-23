@@ -1,17 +1,17 @@
-<section id="price">
+<section id="price" data-section-name="price">
     <div class="container-fluid">
         <div class="col-md-6 col-lg-6  m-auto">
             <div class="row text-title f-black"><span class="text-underline m-auto">Price</span></div>
             <div class="row mt-3 justify-content-center">
                 <p class="lead">
-                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    企画提案・お見積りは無料で承ります。まずはお気軽にご相談ください
                 </p>
             </div>
         </div>
         <div class="col-md-8 m-auto">
             <div class="text-header">
                 <span class="t1">Create homepage</span>
-                <span class="t2">Create homepage</span>
+                <span class="t2">ホームページ制作</span>
             </div>
             <div class="w-100 mt-3"></div>
             <div>
@@ -24,15 +24,15 @@
                             <div class="body">
                                 <div class="w-100 mt-3 lead text-center text-bold">Title</div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line">Price</p>
+                                    <p class="with_right_line text-bold">目安価格</p>
                                     <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line">Price</p>
+                                    <p class="with_right_line text-bold">月額</p>
                                     <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line">Price</p>
+                                    <p class="with_right_line text-bold">詳細</p>
                                     <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                             </div>
@@ -48,13 +48,10 @@
 
         </div>
 
-
-
         <div class="col-md-8 m-auto">
             <div class="text-header">
                 <span class="t1">Web system development</span>
-                <span class="t2">Web system development</span>
-
+                <span class="t2">Webシステム開発PHP使用</span>
             </div>
             <div class="w-100 mt-3"></div>
             <div>
@@ -67,15 +64,11 @@
                             <div class="body">
                                 <div class="w-100 mt-3 lead text-center text-bold">Title</div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line">Price</p>
+                                    <p class="with_right_line text-bold">目安価格</p>
                                     <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line">Price</p>
-                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                </div>
-                                <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line">Price</p>
+                                    <p class="with_right_line text-bold">詳細</p>
                                     <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                             </div>
@@ -96,7 +89,7 @@
         <div class="col-md-8 m-auto">
             <div class="text-header">
                 <span class="t1">Create application</span>
-                <span class="t2">Create application</span>
+                <span class="t2">アプリ制作</span>
 
             </div>
             <div class="w-100 mt-3"></div>
@@ -110,15 +103,11 @@
                             <div class="body">
                                 <div class="w-100 mt-3 lead text-center text-bold">Title</div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line">Price</p>
+                                    <p class="with_right_line text-bold">目安価格</p>
                                     <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line">Price</p>
-                                    <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
-                                </div>
-                                <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line">Price</p>
+                                    <p class="with_right_line text-bold">詳細</p>
                                     <p>􀀘􀀑􀀑􀀍􀀑􀀑􀀑􀔁􀊢􀀁 􀀘􀏖􀊔􀎴􀎋􀍠􀍘􀍸􀏩􀏯􀎬􀊣</p>
                                 </div>
                             </div>
@@ -127,14 +116,8 @@
                     </div>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
-
 </section>

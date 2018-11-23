@@ -1,4 +1,4 @@
-<section id="sc_1">
+<section id="sc_1" data-section-name="header" class="height-100">
     <div class="col-lg-6 col-sm-12 m-auto">
         <div class="row">
             <div class="col-lg-4 col-sm-4 col-5 m-auto">

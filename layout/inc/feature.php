@@ -1,4 +1,4 @@
-<section id="feature" class="feature-head">
+<section id="feature" class="feature-head" data-section-name="feature">
     <div class="container-fluid">
         <div class="col-md-6 col-lg-6 in-box m-auto">
             <div class="row text-title f-black"><span class="text-underline m-auto">Feature</span></div>
@@ -19,7 +19,7 @@
         <div class="col-md-9 m-auto">
             <div class="text-in-box">
                 <p class="text-center lead">Site production business</p>
-                <p class="text-center "><span class="round"><i>Site production business</i></span></p>
+                <p class="text-center "><span class="round"><i>サイト作成事業</i></span></p>
                 <div class="d-flex justify-content-between mt-5 site_product">
                     <div><img src="./assets/image/service/site-production-1.png">
                         <p>Website Design</p>
@@ -43,7 +43,7 @@
         <div class="col-md-9 m-auto">
             <div class="text-in-box">
                 <p class="text-center lead">Graphics business</p>
-                <p class="text-center "><span class="round"><i>Graphics business</i></span></p>
+                <p class="text-center "><span class="round"><i>グラフィックス事業</i></span></p>
                 <div class="d-flex justify-content-between mt-5 site_product">
                     <div><img src="./assets/image/service/graphic-1.png">
                         <p>Logo</p>
@@ -71,22 +71,22 @@
         <div class="col-md-9 m-auto">
             <div class="text-in-box">
                 <p class="text-center lead">Site management business</p>
-                <p class="text-center "><span class="round"><i>Site management business</i></span></p>
+                <p class="text-center "><span class="round"><i>サイト運営事業</i></span></p>
                 <div class="d-flex justify-content-between mt-5 site_product">
                     <div><img src="./assets/image/service/sitemanag-1.png">
-                        <p>Logo</p>
+                        <p>全国求人サイト運営</p>
                     </div>
                     <div><img src="./assets/image/service/sitemanag-2.png">
-                        <p>Business Card</p>
+                        <p>集客ナビシステム</p>
                     </div>
                     <div><img src="./assets/image/service/sitemanag-3.png">
-                        <p>Sticker Line</p>
+                        <p>印刷会社、Web作成会社 向けウェブ作成サイト</p>
                     </div>
                     <div><img src="./assets/image/service/sitemanag-4.png">
-                        <p>Character</p>
+                        <p>イラスト作成サイト</p>
                     </div>
                     <div><img src="./assets/image/service/sitemanag-5.png">
-                        <p>An Illustration</p>
+                        <p>スマホサイト作成サイト</p>
                     </div>
                 </div>
             </div>

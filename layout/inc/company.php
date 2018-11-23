@@ -1,15 +1,15 @@
 <section id="company" data-section-name="company">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-lg-6  m-auto">
+            <div class="col-md-6 m-auto">
                 <div class="row text-title f-black"><span class="text-underline m-auto">Company</span></div>
             </div>
         </div>
         <div class="row justify-content-center mt-5">
-            <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+            <div class="col-12 col-md-3 ">
                 <img class="img-thumbnail shadow" src="./assets/image/map-tovho.PNG">
             </div>
-            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-4">
                 <div class="row mt-1">
                     <div class="col-md-12">
                         <span class="lead"> Japan company <img class="w-25" src="./assets/image/logo.png"></span>
@@ -88,10 +88,10 @@
         <!--Thai office-->
 
         <div class="row justify-content-center mt-5">
-            <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+            <div class="col-12 col-md-3">
                 <img class="img-thumbnail shadow" src="./assets/image/map-tovho-th.PNG">
             </div>
-            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-4">
                 <div class="row mt-1">
                     <div class="col-md-12">
                         <span class="lead">TOVHO-SYSTEM TH<img class="w-25" src="./assets/image/logo.png"></span>

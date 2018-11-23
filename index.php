@@ -23,13 +23,13 @@ $page_directory = dirname($_SERVER["PHP_SELF"]);
 
         <!-- Custom styles for this template -->
         <link href="./assets/myCss/style.css" rel="stylesheet">
-       
+
 
     <body>
 
-        <header>
-            <?php include "./layout/navBar.php"; ?>
-        </header>
+        <!--        <header>
+                    <php include "./layout/navBar.php"; ?>
+                </header>-->
         <div id="load">
         </div>
         <main role="main" id="contents">
@@ -40,8 +40,8 @@ $page_directory = dirname($_SERVER["PHP_SELF"]);
             include "./layout/inc/feature.php";
             include "./layout/inc/price.php";
             include "./layout/inc/staff.php";
-            include "./layout/inc/company.php";
-            include "./layout/inc/contactUs.php";
+//            include "./layout/inc/company.php";
+//            include "./layout/inc/contactUs.php";
             ?>
             <!-- FOOTER -->
             <?php include "./layout/footer.php" ?>
@@ -51,47 +51,62 @@ $page_directory = dirname($_SERVER["PHP_SELF"]);
         <!-- Bootstrap core JavaScript
           Placed at the end of the document so the pages load faster -->
         <script src="./assets/dist/js/bootstrap.min.js"></script>
-        <script src="./assets/dist/Scrollify-master/jquery.scrollify.js" />
-    </script>
+        <script src="./assets/dist/Scrollify-master/jquery.scrollify.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.esm.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.esm.bundle.js"></script>
-    <script src="./assets/myJs/myJs.js"></script>
-    <script>
-        $(function () {
-//            $.scrollify({
-//                section: "section",
-//                sectionName: "section-name",
-//                interstitialSection: ".footer",
-//                easing: "easeOutExpo",
-//                scrollSpeed: 1000,
-//                offset: 0,
-//                scrollbars: true,
-//                standardScrollElements: "",
-//                setHeights: false,
-//                overflowScroll: true,
-//                updateHash: true,
-//                touchScroll: true,
-//                before: function () {},
-//                after: function () {},
-//                afterResize: function () {},
-//                afterRender: function () {}
-//            });
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js.map"></script>
 
-            var swiper = new Swiper('.swiper-container', {
-                slidesPerView: 3,
-                spaceBetween: 30,
-                freeMode: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                },
+        <script src="./assets/myJs/myJs.js"></script>
+        <script>
+            var pagePerView;
+            $(window).resize(onresize());
+
+            function onresize() {
+                width = $(window).width();
+
+                if (width < 769) {
+                    pagePerView = 1;
+                } else {
+                    pagePerView = 3;
+                }
+            }
+            $(function () {
+                //            $.scrollify({
+                //                section: "section",
+                //                sectionName: "section-name",
+                //                interstitialSection: ".footer",
+                //                easing: "easeOutExpo",
+                //                scrollSpeed: 1000,
+                //                offset: 0,
+                //                scrollbars: true,
+                //                standardScrollElements: "",
+                //                setHeights: false,
+                //                overflowScroll: true,
+                //                updateHash: true,
+                //                touchScroll: true,
+                //                before: function () {},
+                //                after: function () {},
+                //                afterResize: function () {},
+                //                afterRender: function () {}
+                //            });
+
+                new Swiper('.swiper-container', {
+                    autoplay: {
+                        delay: 5000
+                    },
+                    slidesPerView: pagePerView,
+                    spaceBetween: 30,
+                    freeMode: false,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true
+                    }
+
+                });
+
             });
-
-        });
-    </script>
-</body>
+        </script>
+    </body>
 
 </html>

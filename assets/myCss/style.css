@@ -1,3 +1,18 @@
+@media(max-width:768px){
+    .site_product  {
+        flex-direction: column;
+    }
+    section#sc_1{
+        background-size: cover !important;
+    }
+    section#sc_1 .text-header{
+        text-align: center;
+    }
+    .height-100{
+        height: auto !important;
+    }
+}
+
 
 #load {
     width:100%;
@@ -56,6 +71,7 @@ section#sc_1 {
     background-image: url(../image/head.png);
     background-size: 80% 90%;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 section#sc_1 img.logo {

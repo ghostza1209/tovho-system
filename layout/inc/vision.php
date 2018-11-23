@@ -1,4 +1,4 @@
-<section id="vision" class="height-100" data-section-name="vision">
+<section id="vision" class="height-100 px-5" data-section-name="vision">
     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 m-auto">
         <div class="row text-title f-black"><span class="text-underline m-auto">Vision</span></div>
         <div class="row mt-5">

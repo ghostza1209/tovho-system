@@ -30,8 +30,8 @@ $page_directory = dirname($_SERVER["PHP_SELF"]);
         <header>
             <?php include "./layout/navBar.php"; ?>
         </header>
-<!--        <div id="load">
-        </div>-->
+        <div id="load">
+        </div>
         <main role="main" id="contents">
 
             <?php
@@ -58,7 +58,7 @@ $page_directory = dirname($_SERVER["PHP_SELF"]);
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.esm.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.esm.bundle.js"></script>
-    <!--<script src="./assets/myJs/myJs.js"></script>-->
+    <script src="./assets/myJs/myJs.js"></script>
     <script>
         $(function () {
             $.scrollify({

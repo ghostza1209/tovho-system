@@ -10,6 +10,8 @@
     -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 /* Safari 4.0 - 8.0 */

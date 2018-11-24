@@ -1,3 +1,14 @@
+@media (max-width:479px){
+    .swiper-slide{
+        width: 100% !important;
+    }
+    section{
+        padding: 10px !important;
+        background-size: contain !important;
+    }
+ 
+}
+
 @media(max-width:768px){
     .site_product  {
         flex-direction: column;

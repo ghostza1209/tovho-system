@@ -1,10 +1,10 @@
 <section id="staff" data-section-name="staff">
     <div class="container-fluid">
-        <div class="col-md-6 col-lg-6  m-auto">
+        <div class="col-12 col-md-6 m-auto pd-0">
             <div class="row text-title f-black"><span class="text-underline m-auto">Our Staff</span></div>
         </div>
         <div class="w-100 mt-5"></div>
-        <div class="col-md-8 col-lg-8  m-auto">
+        <div class="col-12 col-md-8 m-auto pd-0">
             <div class="text-header">
                 <span class="t1">Japanese Staff</span>
             </div>
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="col-md-8 col-lg-8  m-auto">
+        <div class="col-12 col-md-8 m-auto pd-0">
             <div class="text-header">
                 <span class="t1">Thai Staff</span>
             </div>

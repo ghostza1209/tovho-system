@@ -1,14 +1,17 @@
 @media (max-width:479px){
+  
     .swiper-slide{
         width: 100% !important;
     }
     section{
-        padding: 10px !important;
+        padding: 15px !important;
         background-size: contain !important;
     }
     section#price {
         background-size: contain,contain,auto !important;
-
+    }
+    .pd-0{
+        padding: 0 !important;
     }
 }
 

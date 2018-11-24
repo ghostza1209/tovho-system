@@ -1,6 +1,6 @@
 <section id="feature" class="feature-head" data-section-name="feature">
     <div class="container-fluid">
-        <div class="col-md-6 col-lg-6 in-box m-auto">
+        <div class="col-12 col-md-6 in-box m-auto">
             <div class="row text-title f-black"><span class="text-underline m-auto">Feature</span></div>
             <div class="row mt-3">
                 <p class="text-bold">世界各地から集まった優秀なプログラマー</p>
@@ -11,12 +11,12 @@
             </div>
         </div>
         <div class="w-100 mt-5"></div>
-        <div class="col-md-5 col-lg-5 m-auto">
+        <div class="col-md-5 m-auto">
             <div class="row text-title f-black"><span class="text-underline m-auto">Service</span></div>
             <p class="lead text-center">What are you interested in?</p>
         </div>
         <div class="w-100 mt-3"></div>
-        <div class="col-md-9 m-auto">
+        <div class="col-12 col-md-9 m-auto pd-0">
             <div class="text-in-box">
                 <p class="text-center lead">Site production business</p>
                 <p class="text-center "><span class="round"><i>サイト作成事業</i></span></p>
@@ -40,7 +40,7 @@
             </div>
         </div>
         <div class="w-100 mt-5"></div>
-        <div class="col-md-9 m-auto">
+        <div class="col-12 col-md-9 m-auto pd-0">
             <div class="text-in-box">
                 <p class="text-center lead">Graphics business</p>
                 <p class="text-center "><span class="round"><i>グラフィックス事業</i></span></p>
@@ -68,7 +68,7 @@
             </div>
         </div>
         <div class="w-100 mt-5"></div>
-        <div class="col-md-9 m-auto">
+        <div class="col-12 col-md-9 m-auto pd-0">
             <div class="text-in-box">
                 <p class="text-center lead">Site management business</p>
                 <p class="text-center "><span class="round"><i>サイト運営事業</i></span></p>

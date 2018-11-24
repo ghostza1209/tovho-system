@@ -8,7 +8,7 @@
                 </p>
             </div>
         </div>
-        <div class="col-md-8 m-auto">
+        <div class="col-12 col-md-8 m-auto pd-0">
             <div class="text-header">
                 <span class="t1">Create homepage</span>
                 <span class="t2">ホームページ制作</span>
@@ -48,7 +48,7 @@
 
         </div>
 
-        <div class="col-md-8 m-auto">
+        <div class="col-12 col-md-8 m-auto pd-0">
             <div class="text-header">
                 <span class="t1">Web system development</span>
                 <span class="t2">Webシステム開発PHP使用</span>
@@ -86,7 +86,7 @@
 
 
 
-        <div class="col-md-8 m-auto">
+        <div class="col-12 col-md-8 m-auto pd-0">
             <div class="text-header">
                 <span class="t1">Create application</span>
                 <span class="t2">アプリ制作</span>

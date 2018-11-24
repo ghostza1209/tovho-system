@@ -6,7 +6,10 @@
         padding: 10px !important;
         background-size: contain !important;
     }
- 
+    section#price {
+        background-size: contain,contain,auto !important;
+
+    }
 }
 
 @media(max-width:768px){

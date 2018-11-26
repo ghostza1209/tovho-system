@@ -40,8 +40,8 @@ $page_directory = dirname($_SERVER["PHP_SELF"]);
             include "./layout/inc/feature.php";
             include "./layout/inc/price.php";
             include "./layout/inc/staff.php";
-//            include "./layout/inc/company.php";
-//            include "./layout/inc/contactUs.php";
+            include "./layout/inc/company.php";
+            include "./layout/inc/contactUs.php";
             ?>
             <!-- FOOTER -->
             <?php include "./layout/footer.php" ?>

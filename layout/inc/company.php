@@ -5,11 +5,11 @@
                 <div class="row text-title f-black"><span class="text-underline m-auto">Company</span></div>
             </div>
         </div>
-        <div class="row justify-content-center mt-5">
-            <div class="col-12 col-md-3 ">
-                <img class="img-thumbnail shadow" src="./assets/image/map-tovho.PNG">
+        <div class="row justify-content-center mt-5 mr-0 ml-0">
+            <div class="col-sm-12 col-md-12 col-lg-4 px-0">
+                <div class="map-border m-sm-auto" id="map_jp"></div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-sm-12 col-md-12 col-lg-4 px-0">
                 <div class="row mt-1">
                     <div class="col-md-12">
                         <span class="lead"> Japan company <img class="w-25" src="./assets/image/logo.png"></span>
@@ -76,10 +76,10 @@
             </div>
         </div>
 
-        <div class="col-md-12 mt-5">
-            <div class="row justify-content-around">
+        <div class="col-12 col-md-8 mr-auto ml-auto mt-5 px-0">
+            <div class="row flex-column flex-sm-column flex-lg-row justify-content-between  mr-0 ml-0">
                 <?php for ($i = 1; $i < 5; $i++) { ?>
-                    <div class="col-md-3 border" style="height: 200px;background-color: #e7e78f;flex-basis: 22%;"></div>
+                    <div class="col-12 col-sm-12 col-lg border mt-sm-2 mt-lg-auto mr-lg-1" style="height: 200px;background-color: #e7e78f;"></div>
                 <?php } ?>
             </div>
         </div>
@@ -87,12 +87,12 @@
 
         <!--Thai office-->
 
-        <div class="row justify-content-center mt-5">
-            <div class="col-12 col-md-3">
-                <img class="img-thumbnail shadow" src="./assets/image/map-tovho-th.PNG">
+        <div class="row justify-content-center mt-5 mr-0 ml-0">
+            <div class="col-sm-12 col-md-12 col-lg-4 px-0">
+                <div class="map-border m-sm-auto" id="map_th"></div>
             </div>
-            <div class="col-12 col-md-4">
-                <div class="row mt-1">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="row mt-1 mr-0 ml-0">
                     <div class="col-md-12">
                         <span class="lead">TOVHO-SYSTEM TH<img class="w-25" src="./assets/image/logo.png"></span>
                     </div>
@@ -127,10 +127,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-12 mt-5">
-            <div class="row justify-content-around">
+        <div class="col-md-8 mr-auto ml-auto mt-5 px-0">
+            <div class="row justify-content-around mr-0 ml-0">
                 <?php for ($i = 1; $i < 5; $i++) { ?>
-                <div class="col-md-3"><img class="w-100" src="./assets/image/staff/th/<?= $i ?>.jpg"></div>
+                    <div class="col-md-3  mt-2 mt-sm-auto pr-1 pl-1"><img class="w-100" src="./assets/image/staff/th/<?= $i ?>.jpg"></div>
                     <?php } ?>
             </div>
         </div>

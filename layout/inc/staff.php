@@ -1,10 +1,10 @@
 <section id="staff" data-section-name="staff">
     <div class="container-fluid">
-        <div class="col-12 col-md-6 m-auto pd-0">
+        <div class="col-12 col-md-6 m-auto px-0">
             <div class="row text-title f-black"><span class="text-underline m-auto">Our Staff</span></div>
         </div>
         <div class="w-100 mt-5"></div>
-        <div class="col-12 col-md-8 m-auto pd-0">
+        <div class="col-12 col-md-8 m-auto px-0">
             <div class="text-header">
                 <span class="t1">Japanese Staff</span>
             </div>
@@ -13,7 +13,7 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="img-staff"><img style="position: relative;top: -42px;" src="./assets/image/staff/nakata.jpg"></div>
+                        <div class="img-staff"><img src="./assets/image/staff/nakata.jpg"></div>
                         <div class="body">
                             <div class="w-100 text-left text-bold">中田　貴將</div>
                             <div class="w-100 text-left">
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="img-staff"><img style="position: relative;top: -42px;" src="./assets/image/staff/minami.png"></div>
+                        <div class="img-staff"><img src="./assets/image/staff/minami.png"></div>
                         <div class="body">
                             <div class="w-100 text-left text-bold">酒井　南</div>
                             <div class="w-100 text-left">
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 m-auto pd-0">
+        <div class="col-12 col-md-8 m-auto px-0">
             <div class="text-header">
                 <span class="t1">Thai Staff</span>
             </div>
@@ -54,21 +54,58 @@
             <!-- Swiper -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <?php for ($i = 1; $i < 6; $i++) { ?>
-                        <div class="swiper-slide">
-                            <div class="img-staff"><img src="./assets/image/staff/<?= $i ?>.jpg"></div>
-                            <div class="body">
-                                <div class="w-100 text-left text-bold">Name</div>
-                                <div class="w-100 text-left">
-                                    <p class="lead">xxxxxxxxxxxxxxxxx</p>
-                                </div>
+                    <div class="swiper-slide">
+                        <div class="img-staff"><img src="./assets/image/staff/mhuu.jpg"></div>
+                        <div class="body">
+                            <div class="w-100 text-left text-bold">ムー</div>
+                            <div class="w-100 text-left">
+                                <p class="lead">Programmer</p>
                             </div>
                         </div>
-                    <?php } ?>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img-staff"><img src="./assets/image/staff/toey.jpg"></div>
+                        <div class="body">
+                            <div class="w-100 text-left text-bold">トーイ</div>
+                            <div class="w-100 text-left">
+                                <p class="lead">Programmer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img-staff"><img src="./assets/image/staff/air.jpg"></div>
+                        <div class="body">
+                            <div class="w-100 text-left text-bold">エアー</div>
+                            <div class="w-100 text-left">
+                                <p class="lead">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img-staff"><img src="./assets/image/staff/por.jpg"></div>
+                        <div class="body">
+                            <div class="w-100 text-left text-bold">ポー</div>
+                            <div class="w-100 text-left">
+                                <p class="lead">Programmer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img-staff"><img src="./assets/image/staff/joob.jpg"></div>
+                        <div class="body">
+                            <div class="w-100 text-left text-bold">ジョーッブ</div>
+                            <div class="w-100 text-left">
+                                <p class="lead">Programmer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
             </div>
         </div>
-    </div>
 </section>

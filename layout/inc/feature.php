@@ -4,7 +4,7 @@
             <div class="row text-title f-black"><span class="text-underline m-auto">Feature</span></div>
             <div class="row mt-3">
                 <p class="text-bold">世界各地から集まった優秀なプログラマー</p>
-                <p class="text-justify">
+                <p class="text-left text-bold">
                     海外に拠点を置くことにより、常に世界中を意識した会社作り、
                     日本人だけではできない
                 </p>
@@ -16,7 +16,7 @@
             <p class="lead text-center">What are you interested in?</p>
         </div>
         <div class="w-100 mt-3"></div>
-        <div class="col-12 col-md-9 m-auto pd-0">
+        <div class="col-12 col-md-8 m-auto px-0">
             <div class="text-in-box">
                 <p class="text-center lead">Site production business</p>
                 <p class="text-center "><span class="round"><i>サイト作成事業</i></span></p>
@@ -40,7 +40,7 @@
             </div>
         </div>
         <div class="w-100 mt-5"></div>
-        <div class="col-12 col-md-9 m-auto pd-0">
+        <div class="col-12 col-md-8 m-auto px-0">
             <div class="text-in-box">
                 <p class="text-center lead">Graphics business</p>
                 <p class="text-center "><span class="round"><i>グラフィックス事業</i></span></p>
@@ -68,7 +68,7 @@
             </div>
         </div>
         <div class="w-100 mt-5"></div>
-        <div class="col-12 col-md-9 m-auto pd-0">
+        <div class="col-12 col-md-8 m-auto px-0">
             <div class="text-in-box">
                 <p class="text-center lead">Site management business</p>
                 <p class="text-center "><span class="round"><i>サイト運営事業</i></span></p>
@@ -80,7 +80,7 @@
                         <p>集客ナビシステム</p>
                     </div>
                     <div><img src="./assets/image/service/sitemanag-3.png">
-                        <p>印刷会社、Web作成会社 向けウェブ作成サイト</p>
+                        <p>印刷会社、Web作成会社 <br/>向けウェブ作成サイト</p>
                     </div>
                     <div><img src="./assets/image/service/sitemanag-4.png">
                         <p>イラスト作成サイト</p>

@@ -1,5 +1,5 @@
 @media (max-width:479px){
-  
+
     .swiper-slide{
         width: 100% !important;
     }
@@ -10,9 +10,13 @@
     section#price {
         background-size: contain,contain,auto !important;
     }
-    .pd-0{
-        padding: 0 !important;
+    section{
+        border: none !important;
     }
+    section#price .swiper-slide .body {
+        height: 500px;
+    }
+
 }
 
 @media(max-width:768px){
@@ -28,9 +32,120 @@
     .height-100{
         height: auto !important;
     }
+    #map_th,#map_jp{
+        height: 400px;
+        width: 100%;
+    }
+
 }
 
+@media(min-width:769px){
+    section{
+        padding-top: 150px;
+    }
+    #map_th,#map_jp{
+        height: 500px;
+        width: 400px;
+    }
+    section#price .swiper-slide .body {
+        height: 450px;
+    }
+    span.round::before {
+        content: '';
+        background-color: black;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
 
+    span.round::after {
+        content: '';
+        background-color: black;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+
+    span.round i::before {
+        content: '';
+        background-color: black;
+        width: 3rem;
+        height: 1px;
+        display: inline-block;
+        bottom: 4px;
+        left: -2px;
+        margin-right: 5px;
+        position: relative;
+    }
+
+    span.round i::after {
+        content: '';
+        background-color: black;
+        width: 3rem;
+        height: 1px;
+        display: inline-block;
+        bottom: 4px;
+        right: -2px;
+        margin-left: 5px;
+        position: relative;
+    }
+}
+.swiper-container p{
+    letter-spacing: -.5pt;
+}
+.button-prev{
+    left: -79px;
+}
+.button-next{
+    right: -79px;
+}
+.button-next,.button-prev{
+    position: absolute;
+    top: 50%;
+    font-size: 1em;
+    background-color: #e3e3e3;
+    border-radius: 50%;
+    padding: 15px 20px;
+}
+.map-border{
+    border:5px solid white;
+}
+.scroll-navigator{
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+    /*Safari*/ 
+    -webkit-transform: rotate(-90deg);
+
+    /*Firefox*/ 
+    -moz-transform: rotate(-90deg);
+
+    /*IE*/ 
+    -ms-transform: rotate(-90deg);
+
+    /*Opera*/ 
+    -o-transform: rotate(-90deg);
+
+    /*Internet Explorer*/ 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.scroll-navigator span::after{
+    content: '';
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 81px;
+    margin-top: -7px;
+    position: relative;
+    left: 50%;
+}
 #load {
     width:100%;
     height:100%;
@@ -53,7 +168,12 @@
     100% {background-size: 0%;}
 }
 
-
+.bg-pink{
+    background-color: pink;
+}
+.bg-white{
+    background-color: white;
+}
 .width-100 {
     width: 100vw;
 }
@@ -81,21 +201,50 @@ section {
     /*    justify-content: center;
         align-items: center;*/
 }
+section:not(:last-child){
+    border-top: none;
+    border-left: 30px solid #f6f3f3;
+    border-bottom: none;
+    border-right: 30px solid #f6f3f3;
+}
 
 section#sc_1 {
     color: white;
     background-color: black;
     background-image: url(../image/head.png);
-    background-size: 80% 90%;
+    background-size: 75% 95%;
     background-repeat: no-repeat;
     height: 100vh;
 }
+section#sc_1 .top-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 200px;
+    padding: 20px 30px;
+}
+section#sc_1 .top-menu .btn-top-menu:last-child{
+    margin-left: -1pc;
+    border-left: 1px solid black;
+}
+section#sc_1 .top-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
 
+}
+section#sc_1 .btn-top-menu{
+    color: black;
+    background-color: white;
+    border: none;
+    width:150px;
+}
 section#sc_1 img.logo {
     width: 100%;
 }
 
-section#sc_1 div.title {
+section#sc_1 .title {
     font-size: 2.5em;
 }
 
@@ -129,6 +278,7 @@ section#vision {
 .text-in-box {
     padding: 2em;
     border: 1.1px dashed gray;
+    background-color: rgba(255,255,255,.8);
 }
 
 .txt-indent {
@@ -158,47 +308,7 @@ section#feature {
     font-weight: bolder;
 }
 
-span.round::before {
-    content: '';
-    background-color: black;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-}
 
-span.round::after {
-    content: '';
-    background-color: black;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-}
-
-span.round i::before {
-    content: '';
-    background-color: black;
-    width: 3rem;
-    height: 1px;
-    display: inline-block;
-    bottom: 4px;
-    left: -2px;
-    margin-right: 5px;
-    position: relative;
-}
-
-span.round i::after {
-    content: '';
-    background-color: black;
-    width: 3rem;
-    height: 1px;
-    display: inline-block;
-    bottom: 4px;
-    right: -2px;
-    margin-left: 5px;
-    position: relative;
-}
 
 .site_product p {
     text-align: center;
@@ -211,7 +321,7 @@ span.round i::after {
 }
 
 section#price {
-    padding: 50px;
+    /*padding: 50px;*/
     background-color: white;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../image/connection.png),url(../image/price-bg.jpg);
     background-size: contain,contain,auto;
@@ -299,9 +409,6 @@ section#price .swiper-slide .body {
     left: 100px;
 }
 
-section#staff {
-    padding: 50px;
-}
 
 section#staff .text-header span {
     display: block;
@@ -338,7 +445,6 @@ section#staff .img-staff {
 }
 
 section#company {
-    padding: 50px;
     background-color: white;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../image/phuket-kuma-png.png);
     background-size: 80% 90%;
@@ -347,7 +453,6 @@ section#company {
     background-attachment: fixed;
 }
 section#contactUs {
-    padding: 50px;
     background-color: white;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../image/connection.png);
     background-size: 80% 90%;

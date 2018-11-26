@@ -1,7 +1,7 @@
 <section id="contactUs" data-section-name="contactus">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-lg-6  m-auto">
+        <!--<div class="row">-->
+            <div class="col-md-6 m-auto">
                 <div class="row text-title f-black"><span class="text-underline m-auto">Contact Us</span></div>
                 <div class="row mt-3 justify-content-center">
                     <p class="text-center">
@@ -10,9 +10,9 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 m-auto">
+        <!--</div>-->
+        <!--<div class="row">-->
+            <div class="col-md-8 m-auto px-0">
                 <form class="my-form-style">
                     <div class="form-group">
                         <label class="require-label" for="name">お名前</label>
@@ -53,6 +53,6 @@
                     </div>
                 </form>
             </div>
-        </div>
+        <!--</div>-->
     </div>
 </section>

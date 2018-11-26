@@ -1,9 +1,9 @@
-<section id="vision" class="height-100" data-section-name="vision">
+<section id="vision" class="height-100 pt-sm-0" data-section-name="vision">
     <div class="container-fluid d-flex">
-        <div class="col-12 col-md-6 m-auto">
+        <div class="col-12 col-md-8 m-auto">
             <div class="row text-title f-black"><span class="text-underline m-auto">Vision</span></div>
             <div class="row mt-5">
-                <p class="text-justify">
+                <p class="text-center">
                     私たちの社名であるトブホとは、縁起のいい生き物とされる【トンボ】の古名が由来となっています。
                     トンボは前にしか飛べない生態であることから「勝利するまで進み続ける」との意味を重ねて『勝虫』という愛称で、戦国武将の
                     装飾具にお守りとして用いられるなど、繁栄と勝利を呼ぶ縁起物として古くから人々に愛された昆虫であるとされています。
@@ -12,7 +12,7 @@
                 </p>
             </div>
             <div class="row">
-                <blockquote class="txt-indent text-justify text-in-box">
+                <blockquote class="text-left text-in-box">
                     <p class="mb-0">Tovho System is looking at three years future, five years future in the field of view,
                         it will lead today to tomorrow.
                         Company name is a Tovho is derived from the ancient name of the dragonfly.

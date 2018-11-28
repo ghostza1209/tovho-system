@@ -1,4 +1,4 @@
-<section id="price" data-section-name="price">
+<section id="price" data-section-name="price" class="pb-0 pt-custom-breakpoint">
     <div class="container-fluid">
         <div class="col-md-8 m-auto">
             <div class="row text-title f-black"><span class="text-underline m-auto">Price</span></div>
@@ -8,13 +8,13 @@
                 </p>
             </div>
         </div>
-        <div class="col-12 col-md-8 m-auto px-0">
+        <div class="col-12 col-md-8 mr-auto ml-auto between-60 px-0">
             <div class="text-header">
                 <span class="t1">Create homepage</span>
                 <span class="t2">ホームページ制作</span>
             </div>
             <div class="w-100 mt-3"></div>
-            <div>
+            <div class="wrap-container">
                 <!-- Swiper -->
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
@@ -188,7 +188,7 @@
                     </div>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
-         
+
                 </div>
                 <!-- If we need navigation buttons -->
                 <div class="button-prev d-none d-md-block"><i class="fas fa-arrow-left"></i></div>
@@ -208,13 +208,13 @@
 
 
 
-        <div class="col-12 col-md-8 m-auto px-0">
+        <div class="col-12 col-md-8 mr-auto ml-auto px-0 between-70">
             <div class="text-header">
                 <span class="t1">Web system development</span>
                 <span class="t2">Webシステム開発PHP使用</span>
             </div>
             <div class="w-100 mt-3"></div>
-            <div>
+            <div class="wrap-container">
                 <!-- Swiper -->
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
@@ -416,18 +416,14 @@
                     </div>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
-
                 </div>
                 <!-- If we need navigation buttons -->
                 <div class="button-prev d-none d-md-block"><i class="fas fa-arrow-left"></i></div>
                 <div class="button-next d-none d-md-block"><i class="fas fa-arrow-right"></i></div>
             </div>
-
         </div>
-
-
-
-        <div class="col-12 col-md-8 m-auto px-0">
+        
+        <div class="col-12 col-md-8 mr-auto ml-auto between-70 px-0 border-bottom-in-container">
             <div class="text-header">
                 <span class="t1">Create application</span>
                 <span class="t2">アプリ制作</span>

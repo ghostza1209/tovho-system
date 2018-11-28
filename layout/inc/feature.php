@@ -1,26 +1,26 @@
-<section id="feature" class="feature-head" data-section-name="feature">
+<section id="feature" class="feature-head pb-0 pt-custom-breakpoint" data-section-name="feature">
     <div class="container-fluid">
-        <div class="col-12 col-md-6 in-box m-auto">
+        <div class="col-12 col-md-6 col-lg-5 in-box m-auto pb-custom-breakpoint">
             <div class="row text-title f-black"><span class="text-underline m-auto">Feature</span></div>
             <div class="row mt-3">
                 <p class="text-bold">世界各地から集まった優秀なプログラマー</p>
-                <p class="text-left text-bold">
-                    海外に拠点を置くことにより、常に世界中を意識した会社作り、
+                <p class="text-left">
+                    海外に拠点を置くことにより、常に世界中を意識した会社作り、<br/>
                     日本人だけではできない
                 </p>
             </div>
         </div>
-        <div class="w-100 mt-5"></div>
-        <div class="col-md-5 m-auto">
+        <div class="between-cs"></div>
+        <div class="col-md-5 m-auto pt-custom-breakpoint">
             <div class="row text-title f-black"><span class="text-underline m-auto">Service</span></div>
             <p class="lead text-center">What are you interested in?</p>
         </div>
-        <div class="w-100 mt-3"></div>
-        <div class="col-12 col-md-8 m-auto px-0">
+        <div class="between-60"></div>
+        <div class="col-12 col-md-8 mr-auto ml-auto px-0">
             <div class="text-in-box">
                 <p class="text-center lead">Site production business</p>
                 <p class="text-center "><span class="round"><i>サイト作成事業</i></span></p>
-                <div class="d-flex justify-content-between mt-5 site_product">
+                <div class="d-flex flex-wrap justify-content-lg-between mt-5 site_product">
                     <div><img src="./assets/image/service/site-production-1.png">
                         <p>Website Design</p>
                     </div>
@@ -39,12 +39,12 @@
                 </div>
             </div>
         </div>
-        <div class="w-100 mt-5"></div>
-        <div class="col-12 col-md-8 m-auto px-0">
+        <div class="between-70"></div>
+        <div class="col-12 col-md-8 m-auto px-0 pt-custom-breakpoint">
             <div class="text-in-box">
                 <p class="text-center lead">Graphics business</p>
                 <p class="text-center "><span class="round"><i>グラフィックス事業</i></span></p>
-                <div class="d-flex justify-content-between mt-5 site_product">
+                <div class="d-flex flex-wrap justify-content-lg-between mt-5 site_product">
                     <div><img src="./assets/image/service/graphic-1.png">
                         <p>Logo</p>
                     </div>
@@ -67,12 +67,12 @@
                 </div>
             </div>
         </div>
-        <div class="w-100 mt-5"></div>
-        <div class="col-12 col-md-8 m-auto px-0">
+        <div class="between-70"></div>
+        <div class="col-12 col-md-8 m-auto px-0 pt-custom-breakpoint">
             <div class="text-in-box">
                 <p class="text-center lead">Site management business</p>
                 <p class="text-center "><span class="round"><i>サイト運営事業</i></span></p>
-                <div class="d-flex justify-content-between mt-5 site_product">
+                <div class="d-flex  flex-wrap justify-content-lg-between mt-5 site_product">
                     <div><img src="./assets/image/service/sitemanag-1.png">
                         <p>全国求人サイト運営</p>
                     </div>

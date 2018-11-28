@@ -1,55 +1,43 @@
 @media (max-width:479px){
-
-    .swiper-slide{
-        width: 100% !important;
-    }
-    section{
-        padding: 15px !important;
-        background-size: contain !important;
-    }
-    section#price {
-        background-size: contain,contain,auto !important;
-    }
-    section{
-        border: none !important;
-    }
-    section#price .swiper-slide .body {
-        height: 500px;
-    }
-
+    .swiper-slide{width: 100% !important;}
+    section{padding: 15px !important;background-size: contain !important;}
+    section#price {background-size: contain,contain,auto !important;}
+    section{border: none !important;}
+    
 }
 
-@media(max-width:768px){
-    .site_product  {
-        flex-direction: column;
-    }
-    section#sc_1{
-        background-size: cover !important;
-    }
-    section#sc_1 .text-header{
-        text-align: center;
-    }
-    .height-100{
-        height: auto !important;
-    }
-    #map_th,#map_jp{
-        height: 400px;
-        width: 100%;
-    }
-
+@media(max-width:769px){
+    .pt-custom-breakpoint{padding-top: 50px !important;}
+    .pb-custom-breakpoint{padding-bottom: 50px !important;}
+    .site_product  {flex-direction: column;}
+    section#sc_1{background-size: cover !important;}
+    section#sc_1 .text-header{text-align: center;}
+    .height-100{height: auto !important;}
+    #map_th,#map_jp{height: 400px;width: 100%;}
+    section#company{background-position: center 0px;}
+    section#price .swiper-slide .body {height: 500px;}
 }
 
-@media(min-width:769px){
-    section{
-        padding-top: 150px;
-    }
+@media(min-width:770px){
+    .site_product  {justify-content: center}
+    section{padding-top: 170px;padding-bottom: 170px;}
+    section#vision{min-height: 100vh;}
+    .border-bottom-in-container{padding-bottom: 170px;border-bottom: 2px dashed #d4cfcf;}
+    .desc-map-jp{line-height: 2.5em;position: relative;top: 40px;}
+    .desc-map-th{position: relative;top: 161px;}
+    .between-cs{width: 100%;margin-top: 160px;}
+    .between-50{margin-top: 50px;}
+    .between-60{margin-top: 60px;}
+    .between-70{margin-top: 70px;}
+    .between-140{margin-top: 140px;}
+    .between-180{margin-top: 180px;}
     #map_th,#map_jp{
-        height: 500px;
-        width: 400px;
+        height: 536px;
+        width: 430px;
+        box-shadow: 2px 2px 16px #0000003d;
     }
-    section#price .swiper-slide .body {
-        height: 450px;
-    }
+    section#price .swiper-slide img {height: 140px;}
+    section#price .swiper-slide .body {height: 580px;}
     span.round::before {
         content: '';
         background-color: black;
@@ -58,7 +46,6 @@
         height: 10px;
         border-radius: 100%;
     }
-
     span.round::after {
         content: '';
         background-color: black;
@@ -67,7 +54,6 @@
         height: 10px;
         border-radius: 100%;
     }
-
     span.round i::before {
         content: '';
         background-color: black;
@@ -79,7 +65,6 @@
         margin-right: 5px;
         position: relative;
     }
-
     span.round i::after {
         content: '';
         background-color: black;
@@ -92,6 +77,26 @@
         position: relative;
     }
 }
+
+@media(min-width:1200px){
+    section#staff .img-staff {height: 250px;overflow: hidden;}
+    .my-form-style div.form-group{ margin-bottom: 30px;}
+    .my-form-style .btn-lg{padding: 1rem 5rem;border-radius: 1rem;}
+    .imagebox div{
+        flex-basis: 300px;
+        height: 275px;
+        overflow: hidden;
+    }
+    .imagebox div img{width: 100%;}
+}
+@media(max-width:1400px){
+    .swiper-slide{line-height: 1.5em;}
+}
+@media(min-width:1401px){
+    .swiper-slide{line-height: 2.2em;}
+}
+
+
 .swiper-container p{
     letter-spacing: -.5pt;
 }
@@ -102,12 +107,19 @@
     right: -79px;
 }
 .button-next,.button-prev{
+    color:white;
     position: absolute;
     top: 50%;
     font-size: 1em;
-    background-color: #e3e3e3;
+    background-color: #b9b9b9;
     border-radius: 50%;
     padding: 15px 20px;
+}
+.button-next.staff,.button-prev.staff{
+    top:35%;
+    background:none;
+    color: #b9b9b9;
+    font-size: 2em;
 }
 .map-border{
     border:5px solid white;
@@ -211,9 +223,9 @@ section:not(:last-child){
 section#sc_1 {
     color: white;
     background-color: black;
-    background-image: url(../image/head.png);
-    background-size: 75% 95%;
-    background-repeat: no-repeat;
+    /*    background-image: url(../image/head.png);
+        background-size: 75% 95%;
+        background-repeat: no-repeat;*/
     height: 100vh;
 }
 section#sc_1 .top-logo{
@@ -258,7 +270,6 @@ section#vision {
     background-size: 80% 90%;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .text-title {
@@ -271,7 +282,7 @@ section#vision {
     display: block;
     background-color: #cd9f22;
     height: 5px;
-    width: 50%;
+    width: 30%;
     margin: auto;
 }
 
@@ -293,7 +304,7 @@ section#vision {
 }
 
 .in-box {
-    padding: 30px 60px;
+    padding: 30px 100px;
     background-color: white;
     box-shadow: 2px 2px 18px #80808061;
 }
@@ -352,6 +363,7 @@ section#price .text-header {
 .swiper-container {
     width: 100%;
     height: 100%;
+    padding-bottom: 10px;
 }
 
 .swiper-slide {
@@ -439,24 +451,25 @@ section#staff .swiper-slide .body {
     padding: 10px 20px;
 }
 
-section#staff .img-staff {
-    height: 160px;
-    overflow: hidden;
-}
-
 section#company {
     background-color: white;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../image/phuket-kuma-png.png);
-    background-size: 80% 90%;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: center -182px;
 }
 section#contactUs {
     background-color: white;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../image/connection.png);
-    background-size: 80% 90%;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: center -170px;
+}
+.bg-black{
+    background-color: black !important;
+}
+.btn-transparent{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
 }

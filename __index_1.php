@@ -76,69 +76,53 @@
             });
             var marker = new google.maps.Marker({position: uluru, map: map});
         }
-        function updateBg_head() {
-            bg_head = $(".background-head");
-            width = $(window).width();
-            height = $(window).height();
-            break_point_condition = (width > 1200);
-            if (break_point_condition) {
-                $(".background-head").css({
-                    "width": width - (width * 20 / 100) + "px",
-                    "height": height - (height * 5 / 100) + "px"
-                });
-            } else {
-                $(".background-head").css({
-                    "width": "100%"
-                });
-            }
 
 
-        }
-
-
+//        var swiper_web = new Swiper('.swiper-container', {
+//            autoplay: {
+//                delay: 5000
+//            },
+//            slidesPerView: pagePerView,
+//            spaceBetween: 10,
+//            freeMode: false,
+//            pagination: {
+//                el: '.swiper-pagination',
+//                clickable: true
+//            },
+//            navigation: {
+//                nextEl: '.button-next',
+//                prevEl: '.button-prev'
+//            }
+//        });
         $(function () {
             initMap_th();
             initMap_jp();
-            updateBg_head();
 
-            $(".swiper-container").each(function (index, element) {
-                $(this).next(".button-prev").addClass("prev-" + index).next(".button-next").addClass("next-" + index);
-                var $this = $(this);
-                $this.addClass("instance-" + index);
-                $this.find(".button-prev").addClass("prev-" + index);
-                $this.find(".button-next").addClass("next-" + index);
-                var swiper = new Swiper(".instance-" + index, {
-                    autoplay: {
-                        delay: 5000 + (index * 100)
-                    },
-                    slidesPerView: 3,
-                    observeParents: true,
-                    breakpoints: {
-                        // when window width is <= 320px
-                        769: {
-                            slidesPerView: 1,
-                            spaceBetween: 10
-                        },
-                        1200: {
-                            slidesPerView: 2,
-                            spaceBetween: 10
-                        }
-                    },
-                    watchOverflow: true,
-                    spaceBetween: 40,
-                    freeMode: false,
-                    pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true
-                    },
-                    navigation: {
-                        nextEl: ".next-" + index,
-                        prevEl: ".prev-" + index
+
+            new Swiper('.swiper-container', {
+                autoplay: {
+                    delay: 5000
+                },
+                slidesPerView: 3,
+                observeParents: true,
+                breakpoints: {
+                    // when window width is <= 320px
+                    769: {
+                        slidesPerView: 1,
+                        spaceBetween: 10
                     }
-                });
-            });
-            $(window).on("resize", function () {
-                updateBg_head();
+                },
+                watchOverflow: true,
+                spaceBetween: 10,
+                freeMode: false,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true
+                },
+                navigation: {
+                    nextEl: '.button-next',
+                    prevEl: '.button-prev'
+                }
             });
         });
     </script>

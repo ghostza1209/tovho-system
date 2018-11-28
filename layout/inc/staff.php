@@ -1,16 +1,15 @@
-<section id="staff" data-section-name="staff">
+<section id="staff" data-section-name="staff" class="pb-0 pt-custom-breakpoint">
     <div class="container-fluid">
         <div class="col-12 col-md-6 m-auto px-0">
             <div class="row text-title f-black"><span class="text-underline m-auto">Our Staff</span></div>
         </div>
-        <div class="w-100 mt-5"></div>
-        <div class="col-12 col-md-8 m-auto px-0">
+
+        <div class="col-12 col-md-8 mr-auto ml-auto px-0 between-60">
             <div class="text-header">
                 <span class="t1">Japanese Staff</span>
             </div>
-            <div class="w-100 mt-3"></div>
             <!-- Swiper -->
-            <div class="swiper-container">
+            <div class="swiper-container between-50">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="img-staff"><img src="./assets/image/staff/nakata.jpg"></div>
@@ -46,13 +45,12 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 m-auto px-0">
+        <div class="col-12 col-md-8 mr-auto ml-auto between-60 px-0 border-bottom-in-container">
             <div class="text-header">
                 <span class="t1">Thai Staff</span>
             </div>
-            <div class="w-100 mt-3"></div>
             <!-- Swiper -->
-            <div class="swiper-container">
+            <div class="swiper-container between-50">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="img-staff"><img src="./assets/image/staff/mhuu.jpg"></div>
@@ -103,9 +101,12 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
                 </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
+            <!-- If we need navigation buttons -->
+            <div class="button-prev staff d-none d-md-block "><i class="fas fa-chevron-left"></i></div>
+            <div class="button-next d-none d-md-block staff"><i class="fas fa-chevron-right"></i></div>
         </div>
 </section>

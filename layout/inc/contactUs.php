@@ -1,18 +1,18 @@
-<section id="contactUs" data-section-name="contactus">
+<section id="contactUs" data-section-name="contactus" class="pb-4 pt-custom-breakpoint">
     <div class="container-fluid">
         <!--<div class="row">-->
-            <div class="col-md-6 m-auto">
+            <div class="col-md-5 m-auto">
                 <div class="row text-title f-black"><span class="text-underline m-auto">Contact Us</span></div>
-                <div class="row mt-3 justify-content-center">
+                <div class="row mt-4 justify-content-center">
                     <p class="text-center">
-                        サービスについてのお問い合わせ、お見積り、ご質問、ご相談はこちらのフォームより
+                        サービスについてのお問い合わせ、お見積り、ご質問、ご相談はこちらのフォームより<br/>
                         承っております。内容確認後、担当者よりご連絡させていただきます。
                     </p>
                 </div>
             </div>
         <!--</div>-->
         <!--<div class="row">-->
-            <div class="col-md-8 m-auto px-0">
+            <div class="col-md-8 mr-auto ml-auto px-0 between-140">
                 <form class="my-form-style">
                     <div class="form-group">
                         <label class="require-label" for="name">お名前</label>
@@ -22,7 +22,7 @@
                         <label class="require-label" for="email">返信用メールアドレス</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Eg.: Example@hotmail.com">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mb-lg-0">
                         <label class="require-label" >お問い合わせ内容について</label>
                     </div>
                     <div class="form-group">
@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="content">ご相談内容、ご要望をご記入ください。a</label>
+                        <label class="require-label" for="content">ご相談内容、ご要望をご記入ください。a</label>
                         <textarea placeholder="type here" class="form-control" id="content" name="content" rows="3"></textarea>
                     </div>
                     <div class="form-group text-center">

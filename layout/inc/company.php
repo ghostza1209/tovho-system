@@ -81,7 +81,9 @@
         <div class="col-12 col-md-8 mr-auto ml-auto px-0 mt-5">
             <div class="row flex-column flex-sm-column flex-lg-row justify-content-between  mr-0 ml-0">
                 <?php for ($i = 1; $i < 5; $i++) { ?>
-                    <div class="col-12 col-sm-12 col-lg border mt-sm-2 mt-lg-auto mr-lg-2" style="width: 275px;height: 275px;background-color: #e7e78f;"></div>
+                    <div class="col-md-3  mt-2 mt-sm-auto pr-1 pl-1">
+                        <img class="w-100" src="./assets/image/staff/jp/<?= $i ?>.jpg">
+                    </div>
                 <?php } ?>
             </div>
         </div>

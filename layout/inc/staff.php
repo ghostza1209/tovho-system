@@ -73,7 +73,7 @@
                     </div>
 
                     <div class="swiper-slide">
-                        <div class="img-staff"><img src="./assets/image/staff/air.jpg"></div>
+                        <div class="img-staff"><img src="./assets/image/staff/Air.jpg"></div>
                         <div class="body">
                             <div class="w-100 text-left text-bold">エアー</div>
                             <div class="w-100 text-left">
@@ -93,7 +93,7 @@
                     </div>
 
                     <div class="swiper-slide">
-                        <div class="img-staff"><img src="./assets/image/staff/joob.jpg"></div>
+                        <div class="img-staff"><img src="./assets/image/staff/Joob.jpg"></div>
                         <div class="body">
                             <div class="w-100 text-left text-bold">ジョーッブ</div>
                             <div class="w-100 text-left">

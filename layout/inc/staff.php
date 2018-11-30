@@ -53,7 +53,7 @@
             <div class="swiper-container between-50">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="img-staff"><img src="./assets/image/staff/mhuu.jpg"></div>
+                        <div class="img-staff"><img src="./assets/image/staff/Mhuu.jpg"></div>
                         <div class="body">
                             <div class="w-100 text-left text-bold">ムー</div>
                             <div class="w-100 text-left">

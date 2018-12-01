@@ -39,8 +39,8 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <p>Address</p>
-                        <p>38/8 Moo. 3 Plus Town Home, Wichit, Muang , Phuket 83000</p>
-                        <p>TEL :076 - 510421</p>
+                        <p>〒860-0807 熊本県熊本市中央区下通り２－１－２０　ホンダビル8F</p>
+                        <p>TEL : 076 - 510421</p>
                     </div>
                     <div class="col-12 col-md-4">
                         <p>TEL / FAX : 096-356-0928</p>
@@ -49,7 +49,7 @@
                 </div> 
                 <div class="row mt-3">
                     <div class="text-center col-md-12">
-                        <p>&copy; 2018 Tovho-System Co.,Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                        <p>&copy; 2018 Tovho-System Co.,Ltd. </p>
                     </div>
                 </div>
             </div>

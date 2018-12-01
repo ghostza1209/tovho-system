@@ -3,7 +3,7 @@
     section{padding: 15px !important;background-size: contain !important;}
     section#price {background-size: contain,contain,auto !important;}
     section{border: none !important;}
-    
+
 }
 
 @media(max-width:769px){
@@ -91,6 +91,8 @@
 }
 @media(max-width:1400px){
     .swiper-slide{line-height: 1.5em;}
+    #map_th, #map_jp{width: 100%;}
+    .desc-map-jp{line-height: 2em;top: 40px;}
 }
 @media(min-width:1401px){
     .swiper-slide{line-height: 2.2em;}

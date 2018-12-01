@@ -6,10 +6,10 @@
             </div>
         </div>
         <div class="row justify-content-center mr-0 ml-0 between-70">
-            <div class="col-sm-12 col-md-12 col-lg-4 px-0">
+            <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="map-border m-sm-auto" id="map_jp"></div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 px-0">
+            <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="desc-map-jp">
                     <div class="row mt-1">
                         <div class="col-md-12">
@@ -92,7 +92,7 @@
         <!--Thai office-->
 
         <div class="row justify-content-center mr-0 ml-0 between-180">
-            <div class="col-sm-12 col-md-12 col-lg-4 px-0">
+            <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="map-border m-sm-auto" id="map_th"></div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">

@@ -3,7 +3,7 @@
         <div class="top-logo float-md-left "><img class="w-100" src="./assets/image/logo.png"></div>
         <div class="top-menu float-md-right d-none d-sm-block">
             <a href="#"><button class="btn-top-menu ">FAQ</button></a>
-            <a href="#"><button class="btn-top-menu">Contact us</button></a>
+            <a id="toContactUs" href="#contactUs"><button class="btn-top-menu">Contact us</button></a>
         </div>
         <div class="col-12 col-lg-6 col-sm-12 m-auto">
             <div class="row">

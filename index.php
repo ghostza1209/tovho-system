@@ -23,22 +23,61 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXYa_uMYjbv0ak4sdvTi8hVP4s9q48_oo&callback=initMap"
     async defer></script>
+    <style>
+        #return-to-top {
+            z-index: 9999;
+            position: fixed;
+            bottom: 20px;
+            right: 3vw;
+            background: rgb(229, 229, 229);
+            width: 50px;
+            height: 50px;
+            display: block;
+            text-decoration: none;
+            -webkit-border-radius: 35px;
+            -moz-border-radius: 35px;
+            border-radius: 35px;
+            display: none;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+        #return-to-top i {
+            color: #fff;
+            margin: 0;
+            position: relative;
+            left: 16px;
+            top: 13px;
+            font-size: 19px;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+        #return-to-top:hover{
+            background-color: black;
+        }
+
+    </style>
 
 <body>
     <div id="load">
     </div>
     <main role="main" id="contents">
-
-        <?php
-        include "./layout/inc/header.php";
-        include "./layout/inc/vision.php";
-        include "./layout/inc/feature.php";
-        include "./layout/inc/price.php";
-        include "./layout/inc/staff.php";
-        include "./layout/inc/company.php";
-        include "./layout/inc/contactUs.php";
-        include "./layout/footer.php"
-        ?>
+        <a href="javascript:0" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
+            <?php
+            include "./layout/inc/header.php";
+            include "./layout/inc/vision.php";
+            include "./layout/inc/feature.php";
+            include "./layout/inc/price.php";
+            include "./layout/inc/staff.php";
+            include "./layout/inc/company.php";
+            include "./layout/inc/contactUs.php";
+            include "./layout/footer.php"
+            ?>
 
     </main>
 
@@ -88,13 +127,34 @@
                 });
             }
         }
-
-
+        function scrollToTop() {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() >= 100) {
+                    $('#return-to-top').fadeIn(1000);
+                } else {
+                    $('#return-to-top').fadeOut(1000);
+                }
+            });
+            $('#return-to-top').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+        }
+        function scrollTo(node, to) {
+            $(`#${node}`).click(function () {
+                $('html, body').animate({
+                    scrollTop: $(`#${to}`).offset().top
+                }, 2000);
+            });
+        }
         $(function () {
-//            call function
             initMap_th();
             initMap_jp();
             updateBg_head();
+            scrollToTop();
+            scrollTo("toContactUs", "contactUs");
+
             $(".swiper-container").each(function (index, element) {
                 $(this).next(".button-prev").addClass("prev-" + index).next(".button-next").addClass("next-" + index);
                 var $this = $(this);

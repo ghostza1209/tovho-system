@@ -10,7 +10,7 @@
                 <div class="col-lg-4 col-sm-4 col-5 m-auto">
                     <img class="logo" src="./assets/image/dragonfly.png" />
                 </div>
-                <div class="col-lg-8 col-sm-12 text-header d-flex flex-sm-column justify-content-sm-center">
+                <div class="col-lg-8 col-sm-12 text-header d-flex flex-sm-column justify-content-sm-center flex-column flex-sm-row">
                     <span class="title">Build a better future.</span>
                     <p class="lead">企業の未来を飛躍させる</p>
                 </div>

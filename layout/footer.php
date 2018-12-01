@@ -5,7 +5,7 @@
         </div>
         <div class="col-md-5  px-0 bg-black">
             <img class="w-100" src="./assets/image/staff/th/work_181020_0044.jpg">
-            <div class="d-none d-sm-block text-center">
+            <div class="d-none d-lg-block text-center">
                 <button class="btn-lg btn-transparent" style="position: relative;top: 60px;">Contact Us ></button>
             </div>
         </div>

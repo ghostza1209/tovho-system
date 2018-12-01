@@ -3,7 +3,8 @@
     section{padding: 15px !important;background-size: contain !important;}
     section#price {background-size: contain,contain,auto !important;}
     section{border: none !important;}
-
+    section#sc_1 .title{font-size: 1.5em !important;}
+    .in-box {padding: 20px 50px !important;}
 }
 
 @media(max-width:769px){
@@ -16,6 +17,12 @@
     #map_th,#map_jp{height: 400px;width: 100%;}
     section#company{background-position: center 0px;}
     section#price .swiper-slide .body {height: 500px;}
+    .between-cs{width: 100%;margin-top: 0px;}
+    .between-50{margin-top: 10px;}
+    .between-60{margin-top: 20px;}
+    .between-70{margin-top: 30px;}
+    .between-140{margin-top: 100px;}
+    .between-180{margin-top: 140px;}
 }
 
 @media(min-width:770px){
@@ -76,6 +83,15 @@
         margin-left: 5px;
         position: relative;
     }
+
+}
+
+@media (max-width:1199px){
+    section#sc_1 {
+        background-image: url(../image/head.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 @media(min-width:1200px){
@@ -92,12 +108,14 @@
 @media(max-width:1400px){
     .swiper-slide{line-height: 1.5em;}
     #map_th, #map_jp{width: 100%;}
-    .desc-map-jp{line-height: 2em;top: 40px;}
+    .desc-map-jp{line-height: 2em;top: 0;}
+    .desc-map-th{line-height: 2em;top: 25%;}
 }
 @media(min-width:1401px){
     .swiper-slide{line-height: 2.2em;}
 }
 
+section#sc_1 .title {font-size: 2.5em;}
 
 .swiper-container p{
     letter-spacing: -.5pt;
@@ -165,17 +183,21 @@
     height:100%;
     position:fixed;
     z-index:9999;
-    background:url(../image/dragonfly.png) no-repeat center center black;
+    /*background:url(../image/dragonfly.png) no-repeat center center black;*/
+    background-image:url(../image/dragonfly.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: 0%;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 1.5s; 
     animation-name: example;
     animation-duration: 1.5s;
     animation-iteration-count:infinite;
     -webkit-animation-iteration-count: infinite;
+    
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0% {background-size: 0%;}
     50% {background-size: 10%;}
@@ -217,9 +239,9 @@ section {
 }
 section:not(:last-child){
     border-top: none;
-    border-left: 30px solid #f6f3f3;
+    border-left: 30px solid #E5E5E5;
     border-bottom: none;
-    border-right: 30px solid #f6f3f3;
+    border-right: 30px solid #E5E5E5;
 }
 
 section#sc_1 {
@@ -257,14 +279,7 @@ section#sc_1 .btn-top-menu{
 section#sc_1 img.logo {
     width: 100%;
 }
-
-section#sc_1 .title {
-    font-size: 2.5em;
-}
-
-section#sc_1 p.lead {
-    font-size: 2em;
-}
+section#sc_1 p.lead {font-size: 2em;}
 
 section#vision {
     background-color: white;

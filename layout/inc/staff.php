@@ -41,7 +41,7 @@
 
                 </div>
                 <!-- Add Pagination -->
-                <div class="swiper-pagination invisible"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
 

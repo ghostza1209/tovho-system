@@ -43,7 +43,7 @@
         width: 430px;
         box-shadow: 2px 2px 16px #0000003d;
     }
-    section#price .swiper-slide img {height: 140px;}
+    /*section#price .swiper-slide img {height: 140px;}*/
     section#price .swiper-slide .body {height: 580px;}
     span.round::before {
         content: '';

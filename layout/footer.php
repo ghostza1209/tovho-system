@@ -13,7 +13,7 @@
     <div class="row pt-md-5" style="background-color: #2A313D;color: white;">
         <div class="col-md-10 m-auto text-center">
             <div class="container">
-                <div class="row"><img style="background-color: white;"  width="100" height="25" src="./assets/image/logo.png"></div>
+                <div class="row justify-content-center justify-content-md-start mt-3 mt-lg-auto"><img style="background-color: white;"  width="100" height="25" src="./assets/image/logo.png"></div>
                 <div class="row mt-3">
                     <div class="col-12 col-md-4">
                         <p>Address</p>

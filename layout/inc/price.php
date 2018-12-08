@@ -1,43 +1,39 @@
 <section id="price" data-section-name="price" class="pb-0 pt-custom-breakpoint">
-    <div class="container-fluid">
+    <div class="container-fluid container-1195">
         <div class="col-md-8 m-auto">
-            <div class="row text-title f-black"><span class="text-underline m-auto">Price</span></div>
+            <div class="row text-title"><span class="text-underline m-auto"><?= $lang['price']['head'] ?></span></div>
             <div class="row mt-3 justify-content-center">
                 <p class="lead">
-                    企画提案・お見積りは無料で承ります。まずはお気軽にご相談ください
+                    <?= $lang['price']['title'] ?>
                 </p>
             </div>
         </div>
-        <div class="col-12 col-md-8 mr-auto ml-auto between-60 px-0">
+        <div class="col-12 col-md-8 col-lg-12 mr-auto ml-auto between-60 px-0">
             <div class="text-header">
-                <span class="t1">Create homepage</span>
-                <span class="t2">ホームページ制作</span>
+                <span class="t1"><?= $lang['price']['create_homepage']['head'] ?></span>
+                <span class="t2"><?= $lang['price']['create_homepage']['desc'] ?></span>
             </div>
             <div class="w-100 mt-3"></div>
             <div class="wrap-container">
                 <!-- Swiper -->
-                <div class="swiper-container">
+                <div class="swiper-container homepage">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="./assets/image/price/createHomepage/creat-web-1.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">ホームページ新規作成</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['create_new_website']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>700,000円（7ページもしくはロング）</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['create_new_website']['price_title'] ?></p>
+                                    <p><?= $lang['price']['create_new_website']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">月額</p>
-                                    <p>20,000円
-                                        webサーバー費、ドメイン
-                                        料含む（必要なときのみ）
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['create_new_website']['montly_amount_title'] ?></p>
+                                    <p><?= $lang['price']['create_new_website']['montly_amount'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['create_new_website']['detail_title'] ?></p>
                                     <p>
-                                        ホームページをいちから制作し、競合他社サイトと差別化できるホームページを制作します。
-                                        又、スマホ対応も同時に実施します。
+                                        <?= $lang['price']['create_new_website']['detail'] ?>
                                     </p>
                                 </div>
                             </div>
@@ -45,143 +41,118 @@
                         <div class="swiper-slide">
                             <img src="./assets/image/price/createHomepage/creat-web-2.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">ホームページリニューアル</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['homepage_renewal']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>600,000円（7ページもしくはロング</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['homepage_renewal']['price_title'] ?></p>
+                                    <p><?= $lang['price']['homepage_renewal']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">月額</p>
-                                    <p>20,000円
-                                        webサーバー費、ドメイン
-                                        料含む（必要なときのみ）
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['homepage_renewal']['montly_amount_title'] ?></p>
+                                    <p><?= $lang['price']['homepage_renewal']['montly_amount'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        ホームページの目的を明確化し、競合他社サイトと差別化できるホームページを制作します。
-                                        又、スマホ対応も同時に実施します
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['homepage_renewal']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['homepage_renewal']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/createHomepage/creat-web-3.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">スマホ対応フルコース</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['full_for_smartphone']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>250,000円 （7ページ</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['full_for_smartphone']['price_title'] ?></p>
+                                    <p><?= $lang['price']['full_for_smartphone']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">月額</p>
-                                    <p>5,000円
-                                        webサーバー費、ドメイン
-                                        料含む（必要なときのみ）
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['full_for_smartphone']['montly_amount_title'] ?></p>
+                                    <p><?= $lang['price']['full_for_smartphone']['montly_amount'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        既存のPCサイトをスマホ、タブレットでも最適
-                                        に表示できるように修正します
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['full_for_smartphone']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['full_for_smartphone']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/createHomepage/creat-web-4.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">スマホ対応ライトコース </div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['light_for_smartphone']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>10,000円 （1ページあたり</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['light_for_smartphone']['price_title'] ?></p>
+                                    <p><?= $lang['price']['light_for_smartphone']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">月額</p>
-                                    <p>5,000円
-                                        webサーバー費、ドメイン
-                                        料含む（必要なときのみ））
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['light_for_smartphone']['montly_amount_title'] ?></p>
+                                    <p><?= $lang['price']['light_for_smartphone']['montly_amount'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        PC用サイトをスマホに対応
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['light_for_smartphone']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['light_for_smartphone']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/createHomepage/creat-web-5.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">SNSボタン設置</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['sns_button_install']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>3,000 yen (1 button)</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['sns_button_install']['price_title'] ?></p>
+                                    <p><?= $lang['price']['sns_button_install']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        「いいね」ボタン等、SNSのボタンをホームページに設置します
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['sns_button_install']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['sns_button_install']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/createHomepage/creat-web-6.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">SNSウィジェット設置</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['sns_widget']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>8,000円 （1ウィジェット）</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['sns_widget']['price_title'] ?></p>
+                                    <p><?= $lang['price']['sns_widget']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        Twitterタイムラインの設置等、SNSのウィジェットをホームページに設置します
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['sns_widget']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['sns_widget']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/createHomepage/creat-web-7.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">ECサイト制作</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['ec_site_production']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>1,000,000円 （1ショップ）</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['ec_site_production']['price_title'] ?></p>
+                                    <p><?= $lang['price']['ec_site_production']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">月額</p>
-                                    <p>
-                                        30,000円
-                                        webサーバー費、ドメイン
-                                        料含む（必要なときのみ）
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['ec_site_production']['montly_amount_title'] ?></p>
+                                    <p><?= $lang['price']['ec_site_production']['montly_amount'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        ネットショップ運営に通常必要な機能（ショッピングカートシステムや、ポイントシステム、在庫管理、顧客管理、メールマガジン）を備えたECサイトを制作します
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['ec_site_production']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['ec_site_production']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/createHomepage/creat-web-8.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">ホームページ機能<br/>追加・修正</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['homepage_function']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>50,000円（1機能</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['homepage_function']['price_title'] ?></p>
+                                    <p><?= $lang['price']['homepage_function']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        ホームページにご希望の機能を追加します。又、既存システムの修正・改善も実施します
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['homepage_function']['montly_amount_title'] ?></p>
+                                    <p><?= $lang['price']['homepage_function']['montly_amount'] ?></p>
+                                </div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line text-bold"><?= $lang['price']['homepage_function']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['homepage_function']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
@@ -191,128 +162,106 @@
 
                 </div>
                 <!-- If we need navigation buttons -->
-                <div class="button-prev d-none d-md-block"><i class="fas fa-arrow-left"></i></div>
-                <div class="button-next d-none d-md-block"><i class="fas fa-arrow-right"></i></div>
+                <div class="button-prev"><i class="fas fa-arrow-left"></i></div>
+                <div class="button-next"><i class="fas fa-arrow-right"></i></div>
             </div>
         </div>
 
 
 
-
-
         <!--Web System Development-->
-
-
-
-
-
-
-
-        <div class="col-12 col-md-8 mr-auto ml-auto px-0 between-70">
+        <div class="col-12 col-md-8 col-lg-12 mr-auto ml-auto px-0 between-110">
             <div class="text-header">
-                <span class="t1">Web system development</span>
-                <span class="t2">Webシステム開発PHP使用</span>
+                <span class="t1"><?= $lang['price']['web_system_development']['head'] ?></span>
+                <span class="t2"><?= $lang['price']['web_system_development']['desc'] ?></span>
             </div>
             <div class="w-100 mt-3"></div>
             <div class="wrap-container">
                 <!-- Swiper -->
-                <div class="swiper-container">
+                <div class="swiper-container websystem">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-1.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">アンケートシステム開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['Q_system_development']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>500,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['Q_system_development']['price_title'] ?></p>
+                                    <p><?= $lang['price']['Q_system_development']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        アンケートをホームページ上に公開でき、訪問者や顧客満足
-                                        度などを独自で調査することができます
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['Q_system_development']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['Q_system_development']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-2.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">予約・空席管理システム開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['RV_management_system']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>400,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['RV_management_system']['price_title'] ?></p>
+                                    <p><?= $lang['price']['RV_management_system']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        注文システムの作成、又は既存の商品注文システムと連携し、
-                                        自動で在庫・空席管理をすることが可能になります
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['RV_management_system']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['RV_management_system']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-3.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">顧客管理システム開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['customer_management_system']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>400,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['customer_management_system']['price_title'] ?></p>
+                                    <p><?= $lang['price']['customer_management_system']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        注文システムの作成、又は既存の商品注文システムと連携し、
-                                        自動で在庫・空席管理をすることが可能になります
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['customer_management_system']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['customer_management_system']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-4.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">在庫管理システム開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['inventory_management_system']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>700,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['inventory_management_system']['price_title'] ?></p>
+                                    <p><?= $lang['price']['inventory_management_system']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        リアルタイム検索や過去実績からのキーワード補完検索等、商品の検索に特化した在庫管理システムを作成します
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['inventory_management_system']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['inventory_management_system']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-5.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">ポイント管理システム開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['point_management_system']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>500,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['point_management_system']['price_title'] ?></p>
+                                    <p><?= $lang['price']['point_management_system']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        No
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['point_management_system']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['point_management_system']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-6.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">社内業務管理システム開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['internal_biz_management_system']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>500,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['internal_biz_management_system']['price_title'] ?></p>
+                                    <p><?= $lang['price']['internal_biz_management_system']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['internal_biz_management_system']['detail_title'] ?></p>
                                     <p>
-                                        会議室管理、社員スケジュール管理等、社内でアナログで管理していた業務をシステム化します
+                                        <?= $lang['price']['internal_biz_management_system']['detail'] ?>
                                     </p>
                                 </div>
                             </div>
@@ -320,96 +269,98 @@
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-7.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">会員登録管理システム開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['membership_regis_management_system']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>400,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['membership_regis_management_system']['price_title'] ?></p>
+                                    <p><?= $lang['price']['membership_regis_management_system']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        会員情報や申込、お問合せに関した情報を時系列、地域別、店舗別等、検索しやすいシステムを構築
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['membership_regis_management_system']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['membership_regis_management_system']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-8.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">オリジナルSNS開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['original_sys_development']['title']; ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>1,000,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['original_sys_development']['price_title']; ?></p>
+                                    <p><?= $lang['price']['original_sys_development']['price']; ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        社内、又は会員向けのコミュニティサイトを構築します
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['original_sys_development']['detail_title']; ?></p>
+                                    <p><?= $lang['price']['original_sys_development']['detail']; ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-9.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">オリジナルブログ開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['original_blog_development']['title']; ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>500,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['original_blog_development']['price_title']; ?></p>
+                                    <p><?= $lang['price']['original_blog_development']['price']; ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        No
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['original_blog_development']['detail_title']; ?></p>
+                                    <p><?= $lang['price']['original_blog_development']['detail']; ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-10.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">問合せシステム開発</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['query_sys_development']['title']; ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>500,000 円</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['query_sys_development']['price_title']; ?></p>
+                                    <p><?= $lang['price']['query_sys_development']['price']; ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        ホームページに問合せフォームを設置します（レスポンシブWEBデザイン）
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['query_sys_development']['detail_title']; ?></p>
+                                    <p><?= $lang['price']['query_sys_development']['detail']; ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-11.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">Excel・AccessシステムのWeb化</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['excel_access_on_web']['title']; ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>100,000円（100画面）</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['excel_access_on_web']['price_title']; ?></p>
+                                    <p><?= $lang['price']['excel_access_on_web']['price']; ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        無料で利用できるアクセス解析ツールGoogleAnalyticsの導入・設定を代行します
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['excel_access_on_web']['detail_title']; ?></p>
+                                    <p><?= $lang['price']['excel_access_on_web']['detail']; ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/webSystem/web-system-12.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">独自アクセス解析導入</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['google_analytics']['title']; ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>100,000円（100画面）</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['google_analytics']['price_title']; ?></p>
+                                    <p><?= $lang['price']['google_analytics']['price']; ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        自社サイト用の完全アクセス解析ページを導入いたします
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['google_analytics']['detail_title']; ?></p>
+                                    <p><?= $lang['price']['google_analytics']['detail']; ?></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/image/price/webSystem/web-system-13.png">
+                            <div class="body">
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['introduce_access_analytics']['title']; ?></div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line text-bold"><?= $lang['price']['introduce_access_analytics']['price_title']; ?></p>
+                                    <p><?= $lang['price']['introduce_access_analytics']['price']; ?></p>
+                                </div>
+                                <div class="w-100 mt-3 text-left">
+                                    <p class="with_right_line text-bold"><?= $lang['price']['introduce_access_analytics']['detail_title']; ?></p>
+                                    <p><?= $lang['price']['introduce_access_analytics']['detail']; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -418,53 +369,47 @@
                     <div class="swiper-pagination"></div>
                 </div>
                 <!-- If we need navigation buttons -->
-                <div class="button-prev d-none d-md-block"><i class="fas fa-arrow-left"></i></div>
-                <div class="button-next d-none d-md-block"><i class="fas fa-arrow-right"></i></div>
+                <div class="button-prev"><i class="fas fa-arrow-left"></i></div>
+                <div class="button-next"><i class="fas fa-arrow-right"></i></div>
             </div>
         </div>
-        
-        <div class="col-12 col-md-8 mr-auto ml-auto between-70 px-0 border-bottom-in-container">
+
+        <div class="col-12 col-md-8 col-lg-12 mr-auto ml-auto between-110 px-0 border-bottom-in-container">
             <div class="text-header">
-                <span class="t1">Create application</span>
-                <span class="t2">アプリ制作</span>
+                <span class="t1"><?= $lang['price']['create_application']['head'] ?></span>
+                <span class="t2"><?= $lang['price']['create_application']['desc'] ?></span>
 
             </div>
             <div class="w-100 mt-3"></div>
             <div>
                 <!-- Swiper -->
-                <div class="swiper-container">
+                <div class="swiper-container application">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="./assets/image/price/app/app1.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">アプリ制作[ ipad iphone iOS用 ]</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['application_ios']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>150,000円 （1機能）</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['application_ios']['price_title'] ?></p>
+                                    <p><?= $lang['price']['application_ios']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        既存のシステムをアプリ化し、スマホでも操作可能にし業務
-                                        効率の向上が図れます
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['application_ios']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['application_ios']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="./assets/image/price/app/app2.png">
                             <div class="body">
-                                <div class="w-100 mt-3 lead text-center text-bold">アプリ制作[ Android ]</div>
+                                <div class="w-100 mt-3 lead text-center title"><?= $lang['price']['application_android']['title'] ?></div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">目安価格</p>
-                                    <p>150,000円（1機能）</p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['application_android']['price_title'] ?></p>
+                                    <p><?= $lang['price']['application_android']['price'] ?></p>
                                 </div>
                                 <div class="w-100 mt-3 text-left">
-                                    <p class="with_right_line text-bold">詳細</p>
-                                    <p>
-                                        既存のシステムをアプリ化し、スマホでも操作可能にし業務
-                                        効率の向上が図れます
-                                    </p>
+                                    <p class="with_right_line text-bold"><?= $lang['price']['application_android']['detail_title'] ?></p>
+                                    <p><?= $lang['price']['application_android']['detail'] ?></p>
                                 </div>
                             </div>
                         </div>
@@ -472,6 +417,9 @@
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
                 </div>
+                <!-- If we need navigation buttons -->
+                <div class="button-prev"><i class="fas fa-arrow-left"></i></div>
+                <div class="button-next"><i class="fas fa-arrow-right"></i></div>
             </div>
         </div>
     </div>

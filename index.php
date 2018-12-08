@@ -1,3 +1,6 @@
+<?php
+include("./config.php");
+?>
 <!doctype html>
 <html lang="en">
 
@@ -6,8 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="">
-
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
         <title>Tovho System</title>
 
         <!-- Bootstrap core CSS -->
@@ -17,19 +19,21 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+              crossorigin="anonymous">
         <!-- Custom styles for this template -->
         <link href="./assets/myCss/style.css" rel="stylesheet">
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXYa_uMYjbv0ak4sdvTi8hVP4s9q48_oo&callback=initMap"
     async defer></script>
+    <script src="https://cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
     <style>
         #return-to-top {
             z-index: 9999;
             position: fixed;
             bottom: 20px;
             right: 3vw;
-            background: rgb(229, 229, 229);
+            background-color: rgb(229, 229, 229);
             width: 50px;
             height: 50px;
             display: block;
@@ -38,12 +42,13 @@
             -moz-border-radius: 35px;
             border-radius: 35px;
             display: none;
-            -webkit-transition: all 0.3s linear;
-            -moz-transition: all 0.3s ease;
-            -ms-transition: all 0.3s ease;
-            -o-transition: all 0.3s ease;
-            transition: all 0.3s ease;
+            -webkit-transition: background-color 0.3s linear;
+            -moz-transition: background-color 0.3s ease;
+            -ms-transition: background-color 0.3s ease;
+            -o-transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease;
         }
+
         #return-to-top i {
             color: #fff;
             margin: 0;
@@ -51,16 +56,11 @@
             left: 16px;
             top: 13px;
             font-size: 19px;
-            -webkit-transition: all 0.3s ease;
-            -moz-transition: all 0.3s ease;
-            -ms-transition: all 0.3s ease;
-            -o-transition: all 0.3s ease;
-            transition: all 0.3s ease;
-        }
-        #return-to-top:hover{
-            background-color: black;
         }
 
+        #return-to-top:hover {
+            background-color: black;
+        }
     </style>
 
 <body>
@@ -69,6 +69,7 @@
     <main role="main" id="contents">
         <a href="javascript:0" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
             <?php
+            include "./layout/navBar.php";
             include "./layout/inc/header.php";
             include "./layout/inc/vision.php";
             include "./layout/inc/feature.php";
@@ -93,28 +94,49 @@
     <script src="./assets/myJs/myJs.js"></script>
     <script>
         function initMap_th() {
-            var uluru = {lat: 7.8639567, lng: 98.3500935};
+            var uluru = {
+                lat: 7.8639567,
+                lng: 98.3500935
+            };
             var map = new google.maps.Map(document.getElementById('map_th'), {
                 center: uluru,
                 zoom: 18,
                 disableDefaultUI: true
             });
-            var marker = new google.maps.Marker({position: uluru, map: map});
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
         }
+
         function initMap_jp() {
-            var uluru = {lat: 32.7992836, lng: 130.7064792};
+            var uluru = {
+                lat: 32.7992836,
+                lng: 130.7064792
+            };
             map = new google.maps.Map(document.getElementById('map_jp'), {
                 center: uluru,
                 zoom: 18,
                 disableDefaultUI: true
             });
-            var marker = new google.maps.Marker({position: uluru, map: map});
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
         }
+
         function updateBg_head() {
             bg_head = $(".background-head");
             width = $(window).width();
             height = $(window).height();
-            if (width > 1200) {
+            if (width > 1900) {
+                $(".background-head").css({
+                    "width": "1575px",
+                    "height": "910px",
+                    "display": "block"
+                });
+
+            } else if (width > 1200) {
                 $(".background-head").css({
                     "width": width - (width * 20 / 100) + "px",
                     "height": height - (height * 5 / 100) + "px",
@@ -127,6 +149,7 @@
                 });
             }
         }
+
         function scrollToTop() {
             $(window).scroll(function () {
                 if ($(this).scrollTop() >= 100) {
@@ -141,6 +164,7 @@
                 }, 1000);
             });
         }
+
         function scrollTo(node, to) {
             $(`#${node}`).click(function () {
                 $('html, body').animate({
@@ -154,9 +178,12 @@
             updateBg_head();
             scrollToTop();
             scrollTo("toContactUs", "contactUs");
+            scrollTo("toContactUs2", "contactUs");
+            scrollTo("toContactUs3", "contactUs");
 
             $(".swiper-container").each(function (index, element) {
-                $(this).next(".button-prev").addClass("prev-" + index).next(".button-next").addClass("next-" + index);
+                $(this).next(".button-prev").addClass("prev-" + index).next(".button-next").addClass(
+                        "next-" + index);
                 var $this = $(this);
                 $this.addClass("instance-" + index);
                 $this.find(".button-prev").addClass("prev-" + index);

@@ -5,7 +5,7 @@
         <group>
             <file>file:/C:/xampp/htdocs/tovho-system/assets/myCss/style.css</file>
             <file>file:/C:/xampp/htdocs/tovho-system/index.php</file>
-            <file>file:/C:/xampp/htdocs/tovho-system/layout/footer.php</file>
+            <file>file:/C:/xampp/htdocs/tovho-system/layout/inc/company.php</file>
             <file>file:/C:/xampp/htdocs/tovho-system/layout/inc/header.php</file>
         </group>
     </open-files>

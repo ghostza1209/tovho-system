@@ -139,5 +139,53 @@
                 <div class="button-prev staff d-none d-md-block "><i class="fas fa-chevron-left"></i></div>
                 <div class="button-next d-none d-md-block staff"><i class="fas fa-chevron-right"></i></div>
             </div>
+            <div class="staff_on_mb">
+                <div class="each_staff">
+                    <div class="img-staff"><img src="./assets/image/staff/Mhuu.jpg"></div>
+                    <div class="box">
+                        <div class="w-100 text-center staff-title"><?= $lang['staff']['th_staff']['mhuu']['name'] ?></div>
+                        <div class="w-100 text-center">
+                            <p class="position"><?= $lang['staff']['th_staff']['mhuu']['position'] ?></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="each_staff">
+                    <div class="img-staff"><img src="./assets/image/staff/toey.jpg"></div>
+                    <div class="box">
+                        <div class="w-100 text-center staff-title"><?= $lang['staff']['th_staff']['toey']['name'] ?></div>
+                        <div class="w-100 text-center">
+                            <p class="position"><?= $lang['staff']['th_staff']['toey']['position'] ?></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="each_staff">
+                    <div class="img-staff"><img src="./assets/image/staff/Air.jpg"></div>
+                    <div class="box">
+                        <div class="w-100 text-center staff-title"><?= $lang['staff']['th_staff']['air']['name'] ?></div>
+                        <div class="w-100 text-center">
+                            <p class="position"><?= $lang['staff']['th_staff']['air']['position'] ?></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="each_staff">
+                    <div class="img-staff"><img src="./assets/image/staff/por.jpg"></div>
+                    <div class="box">
+                        <div class="w-100 text-center staff-title"><?= $lang['staff']['th_staff']['por']['name'] ?></div>
+                        <div class="w-100 text-center">
+                            <p class="position"><?= $lang['staff']['th_staff']['por']['position'] ?></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="each_staff">
+                    <div class="img-staff"><img src="./assets/image/staff/Joob.jpg"></div>
+                    <div class="box">
+                        <div class="w-100 text-center staff-title"><?= $lang['staff']['th_staff']['joob']['name'] ?></div>
+                        <div class="w-100 text-center">
+                            <p class="position"><?= $lang['staff']['th_staff']['joob']['position'] ?></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
 </section>

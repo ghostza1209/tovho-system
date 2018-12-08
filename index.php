@@ -67,7 +67,7 @@ include("./config.php");
     <div id="load">
     </div>
     <main role="main" id="contents">
-        <a href="javascript:0" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
+        <a class="disable_on_mobile" href="javascript:0" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
             <?php
             include "./layout/navBar.php";
             include "./layout/inc/header.php";

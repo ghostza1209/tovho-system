@@ -5,12 +5,12 @@
                 <div class="row text-title f-black"><span class="text-underline m-auto"><?= $lang['company']['head'] ?></span></div>
             </div>
         </div>
-        <div class="row justify-content-center mr-0 ml-0 between-110 col-12 col-xl-12 flex-column flex-xl-row">
-            <div class="d-flex justify-content-center bg-white-op-80 flex-column flex-xl-row">
+        <div class="row justify-content-center mr-0 ml-0 between-110 col-12 col-xl-12 flex-column flex-xl-row px-0 px-sm-auto">
+            <div class="d-flex justify-content-center bg-white-op-80 flex-column flex-xl-row border-on-mb">
                 <div class="col-sm-12 col-xl-5 px-0 px-sm-auto">
                     <div class="map-border m-sm-auto" id="map_jp"></div>
                 </div>
-                <div class="col-sm-12  col-xl-7 mt-5 mt-xl-auto">
+                <div class="col-sm-12 col-xl-7 mt-5 mt-xl-auto mt-30">
                     <div class="desc-map-jp">
                         <div class="row mt-1">
                             <div class="col-md-12">
@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-12 mr-auto ml-auto px-0 mt-5">
+        <div class="col-12 col-md-8 col-xl-12 mr-auto ml-auto px-0 mt-5 mt-25">
             <div class="row flex-column  flex-lg-row justify-content-between  mr-0 ml-0">
                 <div class="col-12 col-xl-3 mt-2 mt-lg-auto pr-1 pl-1">
                     <img class="w-100" src="./assets/image/staff/jp/1.jpg">
@@ -97,11 +97,11 @@
         <!--Thai office-->
 
         <div class="row justify-content-center mr-0 ml-0 between-180 flex-column flex-xl-row">
-            <div class="d-flex justify-content-center bg-white-op-80 col-12 col-xl-12 flex-column flex-xl-row">
+            <div class="d-flex justify-content-center bg-white-op-80 col-12 col-xl-12 flex-column flex-xl-row border-on-mb  px-0 px-sm-auto">
                 <div class="col-sm-12 col-xl-5 px-0 px-sm-auto">
                     <div class="map-border m-sm-auto" id="map_th"></div>
                 </div>
-                <div class="col-sm-12 col-xl-7 d-flex align-items-center mt-5 mt-xl-auto">
+                <div class="col-sm-12 col-xl-7 d-flex align-items-center mt-5 mt-xl-0 mt-30">
                     <div class="desc-map-th">
                         <div class="row mt-1">
                             <div class="col-md-12">
@@ -139,7 +139,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-8 col-xl-12 mr-auto ml-auto mt-5 px-0 border-bottom-in-container">
+        <div class="col-12 col-md-8 col-xl-12 mr-auto ml-auto mt-5 mt-25 px-0 border-bottom-in-container">
             <div class="row justify-content-around mr-0 ml-0 imagebox">
                 <div class="col-12 col-xl-3 mt-2 mt-lg-auto pr-1 pl-1"><img class="w-100" src="./assets/image/staff/th/1.jpg"></div>
                 <div class="d-none d-lg-block col-12 col-xl-3 mt-2 mt-lg-auto pr-1 pl-1"><img class="w-100" src="./assets/image/staff/th/2.jpg"></div>

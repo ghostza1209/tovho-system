@@ -13,26 +13,26 @@
         </div>
     </div>
     <div class="row pt-md-5" style="background-color: #2A313D;color: white;">
-        <div class="col-md-10 m-auto text-center">
+        <div class="col-md-10 m-auto text-center text_left_mb">
             <div class="container">
-                <div class="row justify-content-center justify-content-md-start mt-3 mt-lg-auto">
+                <div class="row justify-content-center justify-content-md-start mt-3 mt-lg-auto mt-70">
                     <img width="140" height="40" src="./assets/image/logo-wh.png">
                 </div>
                 <div class="row mt-3">
                     <div class="col-12 col-md-4">
-                        <p>Japan</p>
+                        <p><span class="footer-underline">Japan Address</span></p>
                         <p>〒860-0807</p>
                         <p>熊本県熊本市中央区下通り２－１－２０</p>
                         <p>ホンダビル8F</p>
                     </div>
                     <div class="col-12 col-md-4">
-                        <p>Thailand</p>
+                        <p><span class="footer-underline">Thailand Address</span></p>
                         <p>38/8 Moo. 3 Plus Town Home</p>
                         <p>Wichit, Muang</p>
                         <p>Phuket 83000</p>
                     </div>
                     <div class="col-12 col-md-4">
-                        <p>Contact us</p>
+                        <p><span class="footer-underline">Contact us</span></p>
                         <p>TEL： JP 096-356-0928</p>
                         <p>TEL: TH 076 - 510421</p>
                         <p>E-mail: info@tovho-system.com</p>
@@ -41,7 +41,7 @@
                 <hr class="border-white" />
                 <div class="row mt-3">
                     <div class="text-center col-md-12">
-                        <p>Copyright &copy; tovho-system.com all rights reserved.</p>
+                        <p class="font-footer">Copyright &copy; tovho-system.com all rights reserved.</p>
                     </div>
                 </div>
             </div>

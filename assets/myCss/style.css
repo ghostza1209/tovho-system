@@ -22,7 +22,7 @@
         border-right: 15px solid #E5E5E5 !important;
     }
     .navbar,section#sc_1{border: none !important;}
-    section#sc_1 .title{font-size: 1.5em !important;}
+    section#sc_1 .title{font-size: 30px !important;}
     .in-box {padding: 20px 50px !important;}
     .mrgnt-25{margin-top: 25px !important;}
     .mrgnt-30{margin-top: 30px !important;}
@@ -44,6 +44,24 @@
     .swiper-slide p{font-size: 15px}
     .swiper-container{padding-bottom: 0 !important}
     .between-110{margin-top: 40px;}
+    #map_th,#map_jp{height: 305px !important;height: 150px!important}
+    .mt-25{margin-top: 25px !important}
+    .mt-30{margin-top: 30px !important}
+    .border-on-mb{border: 1px solid #e5e5e5;}
+    .section#sc_1 p.lead{font-size: 22px;}
+    .between-180{margin-top: 45px !important;}
+    .contact-submit-btn {
+        font-size: 16px !important;
+        padding: 4px 15px !important;
+    }
+    .disable_on_mobile{display: none !important}
+    .mt-70{margin-top: 70px !important}
+    .text_left_mb{text-align: left !important;}
+    .font-footer{font-size: 10px;}
+    .footer-underline{
+        text-decoration-line: underline;
+        text-underline-position: under;
+    }
 }
 
 @media(max-width:769px){
@@ -56,7 +74,7 @@
     section#sc_1{background-size: cover !important;background-position: -300px center;}
     section#sc_1 .text-header{text-align: center;}
     .height-100{height: auto !important;}
-    #map_th,#map_jp{height: 400px;width: 100%;}
+    #map_th,#map_jp{height: 400px;}
     section#company{background-position: center 0px;}
     section#price .swiper-slide .body {min-height: 500px;}
     .between-cs{width: 100%;margin-top: 0px;}
@@ -75,6 +93,8 @@
     }
     .site_product p{font-size: 13px !important;}
     .title-in-box{font-size: 15px !important}
+    .staff_on_dt{display: none}
+    .staff_on_mb{display: block}
 }
 @media(min-width:768px){
     text-vision{font-size: 16px;}
@@ -246,11 +266,10 @@
 }
 .contact-submit-btn{
     font-size: 22px;
-    width: 300px;
-    height: 50px;
     background-color: black;
     color: white;
     border: none;
+    padding: 9px 106px;
 }
 .contact-submit-btn:hover{
     background-color: gray;

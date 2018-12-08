@@ -11,7 +11,7 @@
         </div>
         <!--</div>-->
         <!--<div class="row">-->
-        <div class="col-md-8 col-xl-12 mr-auto ml-auto px-4 pt-5 between-75 bg-white-op-80">
+        <div class="col-md-8 col-xl-12 mr-auto ml-auto px-0 px-sm-4 pt-5 between-75 bg-white-op-80">
             <form class="my-form-style" action="./sendMail.php" method="post">
                 <div class="form-group">
                     <label class="require-label" for="name"><?= $lang['contactUs']['contact_form']['name'] ?></label>
